@@ -1,0 +1,43 @@
+name: Publish SGUA spatial planning
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out public release
+        uses: actions/checkout@v4
+      - name: Verify public artifact
+        shell: bash
+        run: |
+          test -f index.html
+          test -f data/registry.json
+          test -f data/geometry.json
+          test -f data/optimizer.json
+          if find . -type f \( -iname '*.pdf' -o -iname '*.docx' -o -iname '*.xlsx' -o -iname '*.zip' -o -name '.env' \) -not -path './.git/*' | grep -q .; then
+            echo "Internal original documents must not be published"
+            exit 1
+          fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
