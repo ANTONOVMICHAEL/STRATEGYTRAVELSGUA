@@ -1,9 +1,10 @@
 {
-  "sourceCommit": "56098d494ff9faa814c42382813da0a8da033f44",
-  "runtimeRevision": "room202-batching-20261106",
+  "sourceCommit": "f43544ba475b3dfeb0bb100d2906aeb5ae3786af",
+  "runtimeRevision": "room202-gpu-20261106",
   "resourceRevision": "room202-pbr-20261105",
   "publicBase": "/STRATEGYTRAVELSGUA/",
-  "date": "2026-11-06",
+  "publishedAt": "2026-11-06",
   "facilityStorage": "browser-local",
-  "sourceArtifactSha256": "f92f419d3c1adbe3c0d43b79f48a6400be5ac80518870eef43a7a1c92b2b6c61"
+  "sourceArtifactSha256": "492dac18d10df48a49310c8b2281e33322ef55d56f7e2ac45303edf739b9c199",
+  "texturePayloadBc7Bytes": 55062416
 }
