@@ -1,0 +1,63 @@
+{
+  "format": "glTF 2.0",
+  "generator": "scripts/export-academy-models.mjs",
+  "entries": [
+    {
+      "name": "building-1",
+      "url": "models/building-1.glb",
+      "bytes": 598188,
+      "sha256": "664809af5e0f9c73a505a4cc0b5b65c19dd888a6b4985e6660eca413bf3016b1",
+      "kind": "exterior",
+      "building": 1,
+      "source": "Existing CAD footprint and photographed visible facade; heights and unseen elevations approximate."
+    },
+    {
+      "name": "building-5",
+      "url": "models/building-5.glb",
+      "bytes": 527492,
+      "sha256": "09a5618972b8d5789f147dce86d570013129a70f2e4afc35fa8ff4106c2e7865",
+      "kind": "exterior",
+      "building": 5,
+      "source": "Existing CAD footprint and photographed visible facade; heights and unseen elevations approximate."
+    },
+    {
+      "name": "room-K01-F02-T029",
+      "url": "models/room-K01-F02-T029.glb",
+      "bytes": 937332,
+      "sha256": "2fb02638e0044cc77324b1585eb4b7fd4856cb59e3a40593cea17c233daa85ea",
+      "kind": "interior",
+      "uid": "K01-F02-T029",
+      "building": 1,
+      "number": "202",
+      "positioned": true,
+      "photoDate": "15.06.2023",
+      "source": "S17 PDF6; S11, строка 172; S13, с. 7, кабинет 202; S13, PDF 7, строка таблицы 3; S11, строка 172; S10, лист «Свод предложений», строка 34"
+    },
+    {
+      "name": "room-K01-F03-T008",
+      "url": "models/room-K01-F03-T008.glb",
+      "bytes": 766688,
+      "sha256": "67a352c5a0156610e98474aec952a0c6a5dbe3bc56c7896a09761145e7379598",
+      "kind": "interior",
+      "uid": "K01-F03-T008",
+      "building": 1,
+      "number": "318",
+      "positioned": true,
+      "photoDate": "15.05.2024",
+      "source": "S17 PDF7; S11, строка 237; S13, с. 11, кабинет 318; S13, PDF 11, строка таблицы 15; S11, строка 237; S10, лист «Свод предложений», строка 87"
+    },
+    {
+      "name": "room-ADDR-K05-F03-318",
+      "url": "models/room-ADDR-K05-F03-318.glb",
+      "bytes": 578964,
+      "sha256": "ab4a66de34e1571333455852b5b83a855baf6a14f8f60391e8784186ba1456eb",
+      "kind": "interior",
+      "uid": "ADDR-K05-F03-318",
+      "building": 5,
+      "number": "318",
+      "positioned": false,
+      "photoDate": "03.08.2021",
+      "source": "S13, PDF 31, строка таблицы 8"
+    }
+  ]
+}

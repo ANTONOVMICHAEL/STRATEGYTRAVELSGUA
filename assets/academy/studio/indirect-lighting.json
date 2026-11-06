@@ -1,0 +1,18 @@
+{
+  "file": "architecture-indirect.png",
+  "scale": 6,
+  "peakLinear": 5.991888523101807,
+  "resolution": 2048,
+  "uvChannel": 1,
+  "bake": "Cycles DIFFUSE / indirect only / color disabled",
+  "colorSpace": "sRGB transport, decode exactly once",
+  "excluded": "All semantic entities, including both doors and every furniture item",
+  "directLighting": "Runtime only; never included in this atlas",
+  "receivers": 19,
+  "sha256": "85916889d50338018c7b8c5a61aaba21ab7d2c9ed8ba01d464a771cbf7a012e2",
+  "denoising": "OpenImageDenoise CPU, geometric world-normal UV2 guide, irradiance only; material textures untouched",
+  "rawSha256": "5cc2ec5a948609b4351a88c800c069e212df6aa7d45dcfecd95ac6cd27a4d7da",
+  "guidePixels": 2244929,
+  "meanBefore": 0.022564025595784187,
+  "meanAfter": 0.022540319710969925
+}

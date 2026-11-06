@@ -1,0 +1,87 @@
+{
+  "roomUid": "K01-F02-T029",
+  "method": "Crops of user-supplied source photographs; mesh dimensions estimated from photos within CAD room envelope.",
+  "sourcePhotos": [
+    "IMG_9429.jpg",
+    "IMG_9454.jpg"
+  ],
+  "assets": [
+    {
+      "file": "202-panel-oak.jpg",
+      "source": "IMG_9454.jpg",
+      "cropPx": [
+        1595,
+        235,
+        1645,
+        575
+      ],
+      "purpose": "wall panel material sample"
+    },
+    {
+      "file": "202-desk-oak.jpg",
+      "source": "IMG_9429.jpg",
+      "cropPx": [
+        520,
+        760,
+        880,
+        870
+      ],
+      "purpose": "furniture oak material sample"
+    },
+    {
+      "file": "202-floor-oak.jpg",
+      "source": "IMG_9454.jpg",
+      "cropPx": [
+        850,
+        1160,
+        1780,
+        1270
+      ],
+      "purpose": "floor laminate material sample"
+    },
+    {
+      "file": "202-desk-banner.jpg",
+      "source": "IMG_9454.jpg",
+      "cropPx": [
+        822,
+        750,
+        1540,
+        1030
+      ],
+      "purpose": "printed desk front"
+    },
+    {
+      "file": "202-lectern-banner.jpg",
+      "source": "IMG_9454.jpg",
+      "cropPx": [
+        260,
+        540,
+        550,
+        1040
+      ],
+      "purpose": "printed lectern front"
+    },
+    {
+      "file": "202-portrait.jpg",
+      "source": "IMG_9454.jpg",
+      "cropPx": [
+        426,
+        222,
+        573,
+        407
+      ],
+      "purpose": "portrait inside modeled frame"
+    },
+    {
+      "file": "202-chalkboard.jpg",
+      "source": "IMG_9454.jpg",
+      "cropPx": [
+        1210,
+        285,
+        1550,
+        516
+      ],
+      "purpose": "chalk surface inside modeled frame"
+    }
+  ]
+}

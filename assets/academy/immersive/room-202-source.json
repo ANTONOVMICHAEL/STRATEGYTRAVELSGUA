@@ -1,0 +1,54 @@
+{
+  "format": "glTF 2.0",
+  "generator": "scripts/export-immersive-model.mjs",
+  "file": "room-202.glb",
+  "roomUid": "K01-F02-T029",
+  "building": 1,
+  "number": "202",
+  "areaM2": 113.7,
+  "widthM": 8.57276699877643,
+  "depthM": 13.271167969675428,
+  "heightM": 3.25,
+  "bytes": 6437668,
+  "sha256": "5fabf5eef50b8baebb9308c8bd28222c7cb40995409e58670e174123690f9beb",
+  "entities": 138,
+  "triangles": 93032,
+  "meshes": 776,
+  "photoSources": [
+    {
+      "filename": "IMG_9429.jpg",
+      "localPath": "public/assets/academy/room-202-img_9429.jpg",
+      "sha256": "7dd0726938cbb695091bd9ede8cf27d786452fdb03211747397f0839bd3505f8"
+    },
+    {
+      "filename": "IMG_9454.jpg",
+      "localPath": "public/assets/academy/room-202-img_9454.jpg",
+      "sha256": "4a63f3e9b0ecb25ea7bf7b73d50e9b77881ccdc764abf91b82570bfc091c221f"
+    }
+  ],
+  "geometrySource": "S17 PDF6; S11, строка 172; S13, с. 7, кабинет 202; S13, PDF 7, строка таблицы 3; S11, строка 172; S10, лист «Свод предложений», строка 34",
+  "geometryStatus": "CAD envelope, preliminary reconstruction; not a new site survey",
+  "interiorStatus": "2023 photo reconstruction; object dimensions and count estimated; current inventory not verified",
+  "visualDeskCount": 42,
+  "visualSeatCount": 84,
+  "capacityStatus": "Not a certified room capacity",
+  "portals": [
+    {
+      "id": "door-left",
+      "x": -3.426383499388215,
+      "z": 0,
+      "width": 1.12,
+      "height": 2.18,
+      "yaw": 0
+    },
+    {
+      "id": "door-right",
+      "x": 3.426383499388215,
+      "z": 0,
+      "width": 1.12,
+      "height": 2.18,
+      "yaw": 0
+    }
+  ],
+  "exclusions": "Runtime lighting, editing state, and navigation are implemented by the application."
+}

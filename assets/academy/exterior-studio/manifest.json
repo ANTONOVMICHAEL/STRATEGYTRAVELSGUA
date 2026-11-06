@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "building": 1,
+  "file": "building-1-studio.glb",
+  "generator": "Blender 4.5 LTS",
+  "sourceFile": "../models/building-1.glb",
+  "sourceSha256": "664809af5e0f9c73a505a4cc0b5b65c19dd888a6b4985e6660eca413bf3016b1",
+  "sha256": "613511f60668832a882237707c587ee968241f96d2fe7f7518cef12dc36eaebb",
+  "bytes": 931368,
+  "resources": [
+    {
+      "file": "building-1-studio-0.bin",
+      "bytes": 8339488,
+      "sha256": "2d5f7c1250f35370add2f83680f1487122a88b0c71dec1129c111b84a2745b0b"
+    },
+    {
+      "file": "building-1-studio-1.bin",
+      "bytes": 7666224,
+      "sha256": "96b32dc6d9caa71378e82b1f3068913efc3fe30d37803751daeee298238764e9"
+    }
+  ],
+  "photographs": [
+    "../k1-current-fullheight.jpg",
+    "../k1-exterior.jpg"
+  ],
+  "evidence": {
+    "checkedOn": "2026-11-02",
+    "gallery": "https://yandex.com/maps/org/the_institute_of_law_enforcement_activity/1247486477/gallery/",
+    "listing": "https://yandex.com/maps/org/the_institute_of_law_enforcement_activity/1247486477/",
+    "listingAddress": "Saratov, Chernyshevskogo, 104",
+    "status": "Listing and gallery accessible; retained blue-facade photos inspected locally",
+    "photoCaptureDate": null
+  },
+  "accuracy": {
+    "envelope": "Original CAD-derived footprint retained unchanged; height inherited estimate",
+    "facade": "Visible central elevation reconstructed from current blue-facade photos; detailed surface dimensions estimated",
+    "landscape": "Photo-informed trees, paving, planting and ramp; species, dimensions and coordinates not surveyed",
+    "hiddenElevations": "Inherited approximate masses; no additional verified opening claims"
+  },
+  "licenses": {
+    "letteringFont": "DejaVu Sans; Bitstream Vera license / public-domain DejaVu changes; see DejaVu-LICENSE.txt",
+    "newGeometry": "Authored procedurally for this project",
+    "photographicTextures": "Retained existing project source photographs"
+  },
+  "improvements": [
+    "Blender bevels and weighted normals",
+    "Deep window reveals, weather gaskets and folded sills",
+    "Satin metal facade and panel seams",
+    "Dimensional observed Cyrillic name",
+    "Sloping canopy underside and door hardware",
+    "Photo-informed handrails/ramp",
+    "Jointed paving and botanical geometry"
+  ],
+  "sourceBlend": {
+    "file": "assets-source/studio/building-1-studio.blend",
+    "sha256": "0f50fec5a6bf4686d0ab85362c14fb030dcfa18fab02a9875ba12cf10efcf8b9",
+    "bytes": 2212943
+  }
+}

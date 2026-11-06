@@ -1,0 +1,335 @@
+{
+  "version": 3,
+  "roomUid": "K01-F02-T029",
+  "file": "room-202-studio.glb",
+  "generator": "Blender 4.5 LTS",
+  "pipeline": "pbr",
+  "sourceSha256": "5fabf5eef50b8baebb9308c8bd28222c7cb40995409e58670e174123690f9beb",
+  "sha256": "200669065ed233b7d7444e12e5f2769ca2b2efb268a9dc7dcdf2123471ab0c59",
+  "bytes": 296132,
+  "resources": [
+    {
+      "file": "room-202-studio-0-613a3316ecdf.bin",
+      "bytes": 6145968,
+      "sha256": "613a3316ecdf2b6ae84082ca431cc61ab08e14e72bd41eece39bb02b823d9af5"
+    }
+  ],
+  "environment": {
+    "file": "room-environment.hdr",
+    "sha256": "de4c41a3af4965fa2ef97569620180e14bb2a50b300ea998071e2a9e442e1018",
+    "rotationY": 1.5707963267948966
+  },
+  "entities": [
+    "air-conditioner",
+    "chair-01",
+    "chair-02",
+    "chair-03",
+    "chair-04",
+    "chair-05",
+    "chair-06",
+    "chair-07",
+    "chair-08",
+    "chair-09",
+    "chair-10",
+    "chair-11",
+    "chair-12",
+    "chair-13",
+    "chair-14",
+    "chair-15",
+    "chair-16",
+    "chair-17",
+    "chair-18",
+    "chair-19",
+    "chair-20",
+    "chair-21",
+    "chair-22",
+    "chair-23",
+    "chair-24",
+    "chair-25",
+    "chair-26",
+    "chair-27",
+    "chair-28",
+    "chair-29",
+    "chair-30",
+    "chair-31",
+    "chair-32",
+    "chair-33",
+    "chair-34",
+    "chair-35",
+    "chair-36",
+    "chair-37",
+    "chair-38",
+    "chair-39",
+    "chair-40",
+    "chair-41",
+    "chair-42",
+    "chair-43",
+    "chair-44",
+    "chair-45",
+    "chair-46",
+    "chair-47",
+    "chair-48",
+    "chair-49",
+    "chair-50",
+    "chair-51",
+    "chair-52",
+    "chair-53",
+    "chair-54",
+    "chair-55",
+    "chair-56",
+    "chair-57",
+    "chair-58",
+    "chair-59",
+    "chair-60",
+    "chair-61",
+    "chair-62",
+    "chair-63",
+    "chair-64",
+    "chair-65",
+    "chair-66",
+    "chair-67",
+    "chair-68",
+    "chair-69",
+    "chair-70",
+    "chair-71",
+    "chair-72",
+    "chair-73",
+    "chair-74",
+    "chair-75",
+    "chair-76",
+    "chair-77",
+    "chair-78",
+    "chair-79",
+    "chair-80",
+    "chair-81",
+    "chair-82",
+    "chair-83",
+    "chair-84",
+    "chalk-board",
+    "desk-01",
+    "desk-02",
+    "desk-03",
+    "desk-04",
+    "desk-05",
+    "desk-06",
+    "desk-07",
+    "desk-08",
+    "desk-09",
+    "desk-10",
+    "desk-11",
+    "desk-12",
+    "desk-13",
+    "desk-14",
+    "desk-15",
+    "desk-16",
+    "desk-17",
+    "desk-18",
+    "desk-19",
+    "desk-20",
+    "desk-21",
+    "desk-22",
+    "desk-23",
+    "desk-24",
+    "desk-25",
+    "desk-26",
+    "desk-27",
+    "desk-28",
+    "desk-29",
+    "desk-30",
+    "desk-31",
+    "desk-32",
+    "desk-33",
+    "desk-34",
+    "desk-35",
+    "desk-36",
+    "desk-37",
+    "desk-38",
+    "desk-39",
+    "desk-40",
+    "desk-41",
+    "desk-42",
+    "door-left",
+    "door-right",
+    "fire-extinguisher",
+    "interactive-board",
+    "lectern",
+    "portrait",
+    "projector",
+    "teacher-desk",
+    "teacher-monitor",
+    "wall-table"
+  ],
+  "geometrySource": "S17 PDF6; S11, строка 172; S13, с. 7, кабинет 202; S13, PDF 7, строка таблицы 3; S11, строка 172; S10, лист «Свод предложений», строка 34",
+  "accuracy": "2023 photo reconstruction; object dimensions and count estimated; current inventory not verified",
+  "lighting": "Cycles indirect-only architecture atlas with no semantic objects; HDR reflections and runtime direct lighting, moving doors and live shadows",
+  "lightCalibration": "Visual calibration from archive photographs; no measured illuminance claim",
+  "dynamicObjects": "Physical runtime materials, independent transforms and live contact shadows",
+  "surfaceDetails": "Native 2K CC0 PBR sets, metric UVs, 12 furniture grain phases, molded plywood shells, rounded frames and mounted hardware",
+  "surfaceEvidence": "IMG_9413, IMG_9422, IMG_9429, IMG_9454: material classes and silhouettes; CC0 microstructure reconstructed and adapted to photographs, not a surface scan",
+  "baseColorExportChecks": 95,
+  "qualityRevision": "room202-pbr-20261105",
+  "textureResources": [
+    {
+      "file": "materials/OfficeCeiling001-normal.jpg",
+      "bytes": 4573064,
+      "sha256": "fbe489138509930e02d2c90c982663fff7e822bde57a753cee8889828f2adccd"
+    },
+    {
+      "file": "materials/OfficeCeiling001-basecolor.jpg",
+      "bytes": 175868,
+      "sha256": "0e3745c2cf479bba8826562708178c94d687e620d5fe20e6d026aabc8cf1d002"
+    },
+    {
+      "file": "materials/OfficeCeiling001-orm.jpg",
+      "bytes": 698073,
+      "sha256": "2a72db3bf37ac891675afbe605e9863ef68ce0d2ba7e2ec15e3f01728f3fe3e5"
+    },
+    {
+      "file": "materials/Fabric061-normal.jpg",
+      "bytes": 4780259,
+      "sha256": "882607000be47f752a2e596bbcfa64b1eb6e89dbf791417e1bb2386b6b884f9e"
+    },
+    {
+      "file": "materials/Fabric061-basecolor.jpg",
+      "bytes": 696170,
+      "sha256": "4194ead5ee2a0a09314752a00232668125f6c885c00b04e2d60e67425b65abaa"
+    },
+    {
+      "file": "materials/Fabric061-orm.jpg",
+      "bytes": 1370405,
+      "sha256": "f38cd6ba4e8d25bd45956df27cc50fd8e5dddbe5ef6dd51827e9993365ce5efe"
+    },
+    {
+      "file": "materials/oak_veneer_01-normal.jpg",
+      "bytes": 1341655,
+      "sha256": "d6885529ca94a0e4e13b20dbb47d77409e43830e4def952752e56b1353fdf1af"
+    },
+    {
+      "file": "materials/oak_veneer_01-basecolor.jpg",
+      "bytes": 1357580,
+      "sha256": "a51a34d9a3a0cffd0f4820783e4fee78b81b52e017bc7776960b8d78cb5d1bb8"
+    },
+    {
+      "file": "materials/oak_veneer_01-orm.jpg",
+      "bytes": 1205715,
+      "sha256": "46814a2018044e915750e21c92a4753eb21e69cd419917b60f03a11feb0a72e9"
+    },
+    {
+      "file": "textures/84e78fbe2cbd4649.jpg",
+      "bytes": 1148,
+      "sha256": "84e78fbe2cbd4649034899a023ad248d725ece1cd5888fb1a23165e9e9da1628"
+    },
+    {
+      "file": "textures/618119f817c458c3.jpg",
+      "bytes": 10944,
+      "sha256": "618119f817c458c35447f73563af2931a9ab7a23b5c129425d043a4438cbaec5"
+    },
+    {
+      "file": "materials/white_plaster_02-normal.jpg",
+      "bytes": 3381886,
+      "sha256": "8d5a414a7d6de8a3a7cc96a996aa47b00e2cf4351dba659f01dbd41fa86aecb6"
+    },
+    {
+      "file": "materials/white_plaster_02-basecolor.jpg",
+      "bytes": 632213,
+      "sha256": "e59b32ea07ba3f58dcbf537d6798a25949a4423b4410b246204a2feb4e8c1ddc"
+    },
+    {
+      "file": "materials/white_plaster_02-orm.jpg",
+      "bytes": 1321974,
+      "sha256": "ba28c15ac7ca19314236064a2ce609a7ccb8b9df69706fa654039a216303d690"
+    },
+    {
+      "file": "materials/laminate_floor_02-normal.jpg",
+      "bytes": 1391963,
+      "sha256": "0ef4c1a6fcd167069384a7572058e634036a7157b901304e019edebe3e604a9e"
+    },
+    {
+      "file": "materials/laminate_floor_02-basecolor.jpg",
+      "bytes": 1374509,
+      "sha256": "6b68dceec0c26980a5c624c8af008eea893a7c8766ec8b91081bad9b33e3a060"
+    },
+    {
+      "file": "materials/laminate_floor_02-orm.jpg",
+      "bytes": 1769975,
+      "sha256": "eff6eb4137d9bff5384e1868b8d07666d760b96e3ab31c502dc7753066cb02b8"
+    },
+    {
+      "file": "materials/Carpet016-normal.jpg",
+      "bytes": 4604400,
+      "sha256": "9ef5deb96b2d9b7a3385160fb03cedfddffa41bffe80e0d90fc6de63d4b53764"
+    },
+    {
+      "file": "materials/Carpet016-basecolor.jpg",
+      "bytes": 455141,
+      "sha256": "98ae7e4c293aacc54c4df7f6570beda029cc1ce43f625013b2079240d06a9a5c"
+    },
+    {
+      "file": "materials/Carpet016-orm.jpg",
+      "bytes": 1517640,
+      "sha256": "a9223385c9f7cc733b00be03ffa486c2e8ab0dee92cc28102ccc79625acd4825"
+    },
+    {
+      "file": "materials/Metal027-normal.jpg",
+      "bytes": 2979390,
+      "sha256": "d155d326405321c097c5156a1b1bdd409b918b86715ee0be515e7f8168e6f430"
+    },
+    {
+      "file": "materials/Metal027-orm.jpg",
+      "bytes": 1872663,
+      "sha256": "6d6993b3dd86ceb68f75dc42ed4ee494a2b1c47ce0a789233c8f5cf2ee3dba16"
+    },
+    {
+      "file": "textures/e346a77011b277f8.jpg",
+      "bytes": 98344,
+      "sha256": "e346a77011b277f83f86348667a6451be11d2600a109bbae4ed5303ad556bc81"
+    },
+    {
+      "file": "textures/5b3cbdabff314589.jpg",
+      "bytes": 95844,
+      "sha256": "5b3cbdabff31458916794ae19f4f52ac843cc073b971fa865a141d26c32f526c"
+    },
+    {
+      "file": "textures/eea2c0bca58fcf0c.jpg",
+      "bytes": 36320,
+      "sha256": "eea2c0bca58fcf0caef5269c9abb9d8d8cb17bfc4997f727c15571b020fe29f3"
+    },
+    {
+      "file": "textures/374838f8bd3f23b0.jpg",
+      "bytes": 15868,
+      "sha256": "374838f8bd3f23b0f697c4aea10e5b6a500a092e73b80eb14bb9fcf0abf1b59e"
+    }
+  ],
+  "materialsProvenance": "materials/provenance.json",
+  "statistics": {
+    "triangles": 177080,
+    "meshResources": 239,
+    "materials": 95,
+    "images": 26,
+    "uniqueTriangles": 177080,
+    "sceneTriangles": 604856
+  },
+  "indirectLighting": {
+    "file": "architecture-indirect.png",
+    "scale": 6,
+    "peakLinear": 5.991888523101807,
+    "resolution": 2048,
+    "uvChannel": 1,
+    "bake": "Cycles DIFFUSE / indirect only / color disabled",
+    "colorSpace": "sRGB transport, decode exactly once",
+    "excluded": "All semantic entities, including both doors and every furniture item",
+    "directLighting": "Runtime only; never included in this atlas",
+    "receivers": 19,
+    "sha256": "85916889d50338018c7b8c5a61aaba21ab7d2c9ed8ba01d464a771cbf7a012e2",
+    "denoising": "OpenImageDenoise CPU, geometric world-normal UV2 guide, irradiance only; material textures untouched",
+    "rawSha256": "5cc2ec5a948609b4351a88c800c069e212df6aa7d45dcfecd95ac6cd27a4d7da",
+    "guidePixels": 2244929,
+    "meanBefore": 0.022564025595784187,
+    "meanAfter": 0.022540319710969925
+  },
+  "sourceScene": {
+    "file": "assets-source/studio/room-202.blend",
+    "sha256": "29a9244f936154e75565808eea8f4ffcc61b030f7df57e93ce0ab2133cb1f6d1",
+    "linkedMaterials": "public/assets/academy/studio/materials"
+  }
+}
