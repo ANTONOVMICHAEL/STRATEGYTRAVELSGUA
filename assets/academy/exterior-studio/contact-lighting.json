@@ -1,0 +1,11 @@
+{
+  "file": "building-1-contact.png",
+  "sha256": "765d5b9cba501e2d8c8d1e1e1687c81fa50ebb78a76ebf083d8e00e64c2eddf2",
+  "resolution": 2048,
+  "uvChannel": 1,
+  "receivers": 504,
+  "distance": 1.4,
+  "colorSpace": "linear data",
+  "bake": "Cycles AO shader / EMIT / 16 samples",
+  "directLighting": "Not included; sun shadows remain dynamic and cached"
+}

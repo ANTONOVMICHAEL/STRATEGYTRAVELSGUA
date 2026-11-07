@@ -1,22 +1,27 @@
 {
-  "version": 1,
+  "version": 2,
   "building": 1,
   "file": "building-1-studio.glb",
   "generator": "Blender 4.5 LTS",
   "sourceFile": "../models/building-1.glb",
   "sourceSha256": "664809af5e0f9c73a505a4cc0b5b65c19dd888a6b4985e6660eca413bf3016b1",
-  "sha256": "613511f60668832a882237707c587ee968241f96d2fe7f7518cef12dc36eaebb",
-  "bytes": 931368,
+  "sha256": "fbf276a18d28c82ed200243623937193ceb700069cab5075e758b9e18fd1a1c3",
+  "bytes": 1275456,
   "resources": [
     {
-      "file": "building-1-studio-0.bin",
-      "bytes": 8339488,
-      "sha256": "2d5f7c1250f35370add2f83680f1487122a88b0c71dec1129c111b84a2745b0b"
+      "file": "building-1-studio-0-d0b6ae6a0abb.bin",
+      "bytes": 8355704,
+      "sha256": "d0b6ae6a0abb3fe6227ac28c766cc3b3bd243843e5cafb577237de462fe55c87"
     },
     {
-      "file": "building-1-studio-1.bin",
-      "bytes": 7666224,
-      "sha256": "96b32dc6d9caa71378e82b1f3068913efc3fe30d37803751daeee298238764e9"
+      "file": "building-1-studio-1-1726f885217a.bin",
+      "bytes": 8382532,
+      "sha256": "1726f885217a8470b78d4929ed9bfad58565634857fd67f1e1df1ecc479465c7"
+    },
+    {
+      "file": "building-1-studio-2-af449fad824c.bin",
+      "bytes": 410908,
+      "sha256": "af449fad824c21b0c8d3cb5fa48ffcbcb3817862f2be084421244d57f44eb318"
     }
   ],
   "photographs": [
@@ -52,8 +57,49 @@
     "Jointed paving and botanical geometry"
   ],
   "sourceBlend": {
+    "file": "assets-source/studio/building-1-daylight.blend",
+    "sha256": "dfcc84282b453154e51d7ffa5b3dd8ac6a9f4ad11c66983e63186059c4840337",
+    "bytes": 5553889
+  },
+  "qualityRevision": "k1-daylight-20261107",
+  "ambientOcclusion": {
+    "file": "building-1-contact.png",
+    "sha256": "765d5b9cba501e2d8c8d1e1e1687c81fa50ebb78a76ebf083d8e00e64c2eddf2",
+    "resolution": 2048,
+    "uvChannel": 1,
+    "receivers": 504,
+    "distance": 1.4,
+    "colorSpace": "linear data",
+    "bake": "Cycles AO shader / EMIT / 16 samples",
+    "directLighting": "Not included; sun shadows remain dynamic and cached",
+    "compressed": {
+      "file": "building-1-contact.ktx2",
+      "sha256": "1668513cf49b1160493ed73e6274c18258b760a985dbb5697e45945dd804f78c",
+      "bytes": 2704543,
+      "width": 2048,
+      "height": 2048,
+      "levels": 12,
+      "encoding": "UASTC / linear / complete mip chain"
+    }
+  },
+  "environment": {
+    "file": "building-1-environment.hdr",
+    "sha256": "bfc03e75940dc22a3c4cccf4994e310259e89aec62c3a64179536c69556c77c6",
+    "width": 1024,
+    "height": 512,
+    "capture": "Existing reconstructed forecourt and Nishita daylight, building excluded",
+    "rotationY": -1.5707963267948966
+  },
+  "previousSourceBlend": {
     "file": "assets-source/studio/building-1-studio.blend",
-    "sha256": "0f50fec5a6bf4686d0ab85362c14fb030dcfa18fab02a9875ba12cf10efcf8b9",
-    "bytes": 2212943
-  }
+    "sha256": "0f50fec5a6bf4686d0ab85362c14fb030dcfa18fab02a9875ba12cf10efcf8b9"
+  },
+  "enhancements": [
+    "Recessed wing openings and retained central detail",
+    "View-dependent physical clearcoat on photographic glass",
+    "Offline facade/entrance contact atlas on independent UV1",
+    "Model-derived forecourt daylight reflection environment",
+    "Photo-informed spatial grass patches",
+    "Door safety markers visible in retained photographs"
+  ]
 }

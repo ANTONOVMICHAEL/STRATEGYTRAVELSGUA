@@ -1,0 +1,1 @@
+import{a as e}from"./ImmersiveWorkspace-DY1V8Is5.js";export{e as loadExteriorStudio};
