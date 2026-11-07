@@ -1,10 +1,10 @@
-name: Import verified first-building release
+name: Publish SGUA digital twin
 on:
   push:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 concurrency:
@@ -13,78 +13,54 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - name: Download verified public release
-        env:
-          RELEASE_DOWNLOAD_URL: "https://sdmntpreastus2.oaiusercontent.com/files/00000000-ac64-81f6-9918-3d98f88a4a4c/raw?se=2026-11-07T14%3A30%3A22Z&sp=r&sv=2026-02-06&sr=b&scid=01a1b621-ec9b-7ae9-9835-c172cc7d9f22&skoid=b5d2651b-fef3-4bb0-a03b-ca59cc22929b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-07T08%3A50%3A06Z&ske=2026-11-08T08%3A50%3A06Z&sks=b&skv=2026-02-06&sig=2CUX7zyd9BvsYkuwdrfWQPmoHHnl5%2BB21tsMtSuRGj4%3D"
-        run: curl --fail --location --retry 2 "$RELEASE_DOWNLOAD_URL" -o /tmp/sgua-pages.zip
-      - name: Verify and retain public files
+      - name: Check out the retained public release
+        uses: actions/checkout@v4
+      - name: Verify and stage the complete digital twin
         shell: bash
         run: |
           python3 - <<'PY'
-          import pathlib,zipfile,tarfile,hashlib,json,shutil
-          archive=pathlib.Path('/tmp/sgua-pages.zip');digest='9831b7d2c7f2e321fef066d19310074b61e653088b016304a48c96c605841a08'
-          assert hashlib.sha256(archive.read_bytes()).hexdigest()==digest
-          with zipfile.ZipFile(archive) as z:
-            assert z.namelist()==['artifact.tar']
-            z.extract('artifact.tar','/tmp/sgua-release')
+          import pathlib,shutil,json,hashlib
           stage=pathlib.Path('.pages-site');stage.mkdir()
-          names=['.nojekyll','assets','data','plans','index.html','favicon.svg','sgua-95.svg']
-          with tarfile.open('/tmp/sgua-release/artifact.tar') as t:
-            for item in t:
-              path=pathlib.PurePosixPath(item.name)
-              assert not path.is_absolute() and '..' not in path.parts
-              assert item.isfile() or item.isdir()
-              assert not path.parts or path.parts[0] in names,item.name
-            t.extractall(stage,filter='data')
-          assert set(p.name for p in stage.iterdir())==set(names)
+          names=['.nojekyll','assets','data','plans','index.html','favicon.svg','sgua-95.svg','release.json']
+          release=json.loads(pathlib.Path('release.json').read_text())
+          assert release['publicBase']=='/STRATEGYTRAVELSGUA/'
+          assert '/STRATEGYTRAVELSGUA/assets/' in pathlib.Path('index.html').read_text()
           forbidden={'.pdf','.doc','.docx','.xls','.xlsx','.ppt','.pptx','.zip','.tar','.pem','.key'}
+          for name in names:
+            source=pathlib.Path(name)
+            assert source.exists(),name
+            if source.is_dir():shutil.copytree(source,stage/name)
+            else:shutil.copy2(source,stage/name)
           for file in stage.rglob('*'):
             if not file.is_file():continue
             assert file.suffix.lower() not in forbidden and not file.name.startswith('.env'),file
             if file.suffix=='.json':json.loads(file.read_text())
-            if file.suffix in {'.js','.css','.html'}:assert b'/SGUA_OFFICE/' not in file.read_bytes(),file
-          assert '/STRATEGYTRAVELSGUA/assets/' in (stage/'index.html').read_text()
+            if file.suffix in {'.js','.html','.css'}:assert b'/SGUA_OFFICE/' not in file.read_bytes(),file
+          manifest=json.loads((stage/'assets/academy/studio/manifest.json').read_text())
+          assert manifest['roomUid']=='K01-F02-T029' and len(manifest['entities'])==138
           studio=stage/'assets/academy/studio'
-          room=json.loads((studio/'manifest.json').read_text())
           runtime=json.loads((studio/'runtime-manifest.json').read_text())
-          assert room['roomUid']=='K01-F02-T029' and len(room['entities'])==138
-          assert runtime['revision']=='room202-gpu-20261106' and len(runtime['textures'])==26
+          assert runtime['revision']==release['runtimeRevision'] and len(runtime['textures'])==26
           assert hashlib.sha256((studio/'room-202-studio.glb').read_bytes()).hexdigest()==runtime['sourceGlbSha256']
           for texture in runtime['textures']:
             assert hashlib.sha256((studio/texture['file']).read_bytes()).hexdigest()==texture['sha256']
           exterior=stage/'assets/academy/exterior-studio'
           k1=json.loads((exterior/'manifest.json').read_text())
-          assert k1['qualityRevision']=='k1-daylight-20261107'
+          assert k1['qualityRevision']==release['building1Revision']
           assert hashlib.sha256((exterior/k1['file']).read_bytes()).hexdigest()==k1['sha256']
           for resource in [k1['ambientOcclusion'],k1['ambientOcclusion']['compressed'],k1['environment'],*k1['resources']]:
             assert hashlib.sha256((exterior/resource['file']).read_bytes()).hexdigest()==resource['sha256']
-          assert any(b'k1-daylight-20261107' in p.read_bytes() for p in (stage/'assets').glob('*.js'))
-          release=dict(sourceCommit='251c663b60670e74e0f135182bfe7c045713eb4d',runtimeRevision=runtime['revision'],resourceRevision=room['qualityRevision'],building1Revision=k1['qualityRevision'],publicBase='/STRATEGYTRAVELSGUA/',publishedAt='2026-11-07',facilityStorage='browser-local',sourceArtifactSha256=digest)
-          (stage/'release.json').write_text(json.dumps(release,indent=2)+'\n')
-          names.append('release.json')
-          for name in names:
-            old=pathlib.Path(name)
-            if old.is_dir():shutil.rmtree(old)
-            elif old.exists():old.unlink()
-            if (stage/name).is_dir():shutil.copytree(stage/name,old)
-            else:shutil.copy2(stage/name,old)
-          print('Verified first-building release with retained Room 202')
+          print('Verified current public digital twin from',release['sourceCommit'])
           PY
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A -- .nojekyll assets data plans index.html favicon.svg sgua-95.svg release.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Publish refined first-building exterior and preserve Room 202'
-            git push origin HEAD:main
-          fi
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: Configure existing GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
         with:
           path: .pages-site
       - name: Publish website
