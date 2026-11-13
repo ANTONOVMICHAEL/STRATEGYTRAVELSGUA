@@ -26,7 +26,7 @@ jobs:
           python3 - <<'PY'
           import pathlib,shutil,json,hashlib
           stage=pathlib.Path('.pages-site');stage.mkdir()
-          names=['.nojekyll','assets','data','plans','index.html','favicon.svg','sgua-95.svg','release.json']
+          names=['.nojekyll','assets','data','plans','index.html','favicon.svg','sgua-95.svg','release.json','pereezdy']
           release=json.loads(pathlib.Path('release.json').read_text())
           assert release['publicBase']=='/STRATEGYTRAVELSGUA/'
           assert '/STRATEGYTRAVELSGUA/assets/' in pathlib.Path('index.html').read_text()
@@ -36,6 +36,18 @@ jobs:
             assert source.exists(),name
             if source.is_dir():shutil.copytree(source,stage/name)
             else:shutil.copy2(source,stage/name)
+          relocation=stage/'pereezdy'
+          public_base=release['publicBase'].encode('utf-8')
+          relocation_base=public_base+b'pereezdy/'
+          # The archived planner was built for the site root. Give it its own asset base.
+          for pattern in ('index.html','assets/*.js','assets/*.css'):
+            for file in relocation.glob(pattern):
+              contents=file.read_bytes()
+              if public_base in contents:
+                file.write_bytes(contents.replace(public_base,relocation_base))
+          assert relocation_base+b'assets/' in (relocation/'index.html').read_bytes()
+          for name in ['registry.json','geometry.json','optimizer.json','source-facts.json','workbook-evidence.json']:
+            assert (relocation/'data'/name).is_file(),name
           for file in stage.rglob('*'):
             if not file.is_file():continue
             assert file.suffix.lower() not in forbidden and not file.name.startswith('.env'),file

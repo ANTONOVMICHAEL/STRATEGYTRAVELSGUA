@@ -1,0 +1,3851 @@
+{
+  "schema_version": "sgya-discrete-domain-1.0",
+  "source_file": "SGYA_Korpus1_Reestr_dlya_modelirovaniya_V(1).json",
+  "source_sha256": "dceaa2c353725210de08866f0d42770f9a719ae537ceff1232682a89ade71bb9",
+  "domain": "Все 22 проектных пространства V сведены к 21 двоичному пакету. Независимо выбираются совместимые пакеты; 106-1/106-2 образуют один атомарный пакет. Используются адресные цепочки V с маршрутом ГО в421. Новые геометрии и новые адреса приема не изобретаются.",
+  "limitation": "Оптимум только в конечном пространстве кандидатных преобразований и заданных цепочек V; глобальный оптимум здания не доказан. Внутренние адресные маршруты Б11 и альтернативный маршрут ОДО421 не перебираются в этой версии, отображаются в исходных сценариях отдельно.",
+  "candidates": [
+    {
+      "id": "PR-K01-F01-014",
+      "proposed_space_ids": [
+        "PR-K01-F01-014"
+      ],
+      "resources": [
+        "K01-F01-T014"
+      ],
+      "cabinet": "105",
+      "source": [
+        "S17, стр.5, тех.14; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 34.2,
+      "area_seats": 13,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "LIB-WORK"
+      ],
+      "group_ids": [
+        13
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 0
+    },
+    {
+      "id": "SPLIT-106",
+      "proposed_space_ids": [
+        "PR-K01-F01-015-S1",
+        "PR-K01-F01-015-S2"
+      ],
+      "resources": [
+        "K01-F01-T015"
+      ],
+      "cabinet": "106-1 + 106-2",
+      "source": [
+        "S17, стр.5, тех.15; номера S11; пользователи S13; смежность S19",
+        "S17, стр.5, тех.15; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 2,
+      "full": 2,
+      "area": 140.0,
+      "area_seats": 56,
+      "design_seats": 50,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 1,
+      "conditions": [
+        "CLASS-FIT",
+        "STOCK-BOOK",
+        "WALL-106"
+      ],
+      "group_ids": [
+        25
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 2
+    },
+    {
+      "id": "PR-K01-F01-038",
+      "proposed_space_ids": [
+        "PR-K01-F01-038"
+      ],
+      "resources": [
+        "K01-F01-T038"
+      ],
+      "cabinet": "121",
+      "source": [
+        "S17, стр.5, тех.38; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 31.1,
+      "area_seats": 12,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-IYU",
+        "STOCK-ARCH"
+      ],
+      "group_ids": [
+        1,
+        14
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 0
+    },
+    {
+      "id": "PR-K01-F01-041",
+      "proposed_space_ids": [
+        "PR-K01-F01-041"
+      ],
+      "resources": [
+        "K01-F01-T041"
+      ],
+      "cabinet": "123",
+      "source": [
+        "S17, стр.6, тех.41; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 32.1,
+      "area_seats": 12,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-108",
+        "OFF-123A",
+        "STOCK-108"
+      ],
+      "group_ids": [
+        2,
+        15
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 0
+    },
+    {
+      "id": "PR-K01-F01-056",
+      "proposed_space_ids": [
+        "PR-K01-F01-056"
+      ],
+      "resources": [
+        "K01-F01-T056"
+      ],
+      "cabinet": "126",
+      "source": [
+        "S17, стр.6, тех.56; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 32.2,
+      "area_seats": 12,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-126",
+        "OFF-302"
+      ],
+      "group_ids": [
+        3,
+        20
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 0
+    },
+    {
+      "id": "PR-K01-F02-033-034-035",
+      "proposed_space_ids": [
+        "PR-K01-F02-033-034-035"
+      ],
+      "resources": [
+        "K01-F02-T033",
+        "K01-F02-T034",
+        "K01-F02-T035"
+      ],
+      "cabinet": "206, 207, 208",
+      "source": [
+        "S17, стр.6, тех.33; стр.7, тех.34; стр.7, тех.35; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 1,
+      "area": 80.7,
+      "area_seats": 32,
+      "design_seats": 25,
+      "actual_seats": null,
+      "merge_boundaries": 2,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-420",
+        "OFF-421",
+        "OFF-422",
+        "SGB-28",
+        "WALL-MERGE"
+      ],
+      "group_ids": [
+        4,
+        5,
+        29
+      ],
+      "hard_blocked": [
+        "SGB-28: нет полной адресной сверки всех 28 работников; существующее размещение защищено"
+      ],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 2
+    },
+    {
+      "id": "PR-K01-F02-036",
+      "proposed_space_ids": [
+        "PR-K01-F02-036"
+      ],
+      "resources": [
+        "K01-F02-T036"
+      ],
+      "cabinet": "209",
+      "source": [
+        "S17, стр.7, тех.36; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 32.3,
+      "area_seats": 12,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-209",
+        "OFF-228"
+      ],
+      "group_ids": [
+        6,
+        16
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 0
+    },
+    {
+      "id": "PR-K01-F02-042-043",
+      "proposed_space_ids": [
+        "PR-K01-F02-042-043"
+      ],
+      "resources": [
+        "K01-F02-T042",
+        "K01-F02-T043"
+      ],
+      "cabinet": "213, 214",
+      "source": [
+        "S17, стр.7, тех.42; стр.7, тех.43; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 1,
+      "area": 64.8,
+      "area_seats": 25,
+      "design_seats": 25,
+      "actual_seats": null,
+      "merge_boundaries": 1,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-239",
+        "OFF-302",
+        "OFF-YOUTH",
+        "WALL-MERGE"
+      ],
+      "group_ids": [
+        7,
+        17,
+        18,
+        19
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 1
+    },
+    {
+      "id": "PR-K01-F02-044-045-046-047",
+      "proposed_space_ids": [
+        "PR-K01-F02-044-045-046-047"
+      ],
+      "resources": [
+        "K01-F02-T044",
+        "K01-F02-T045",
+        "K01-F02-T046",
+        "K01-F02-T047"
+      ],
+      "cabinet": "215, 216, 217, 218",
+      "source": [
+        "S17, стр.7, тех.44; стр.7, тех.45; стр.7, тех.46; стр.7, тех.47; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 1,
+      "area": 78.7,
+      "area_seats": 31,
+      "design_seats": 25,
+      "actual_seats": null,
+      "merge_boundaries": 3,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-505",
+        "WALL-MERGE"
+      ],
+      "group_ids": [
+        8,
+        26
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 3
+    },
+    {
+      "id": "PR-K01-F02-056-005-057",
+      "proposed_space_ids": [
+        "PR-K01-F02-056-005-057"
+      ],
+      "resources": [
+        "K01-F02-T005",
+        "K01-F02-T056",
+        "K01-F02-T057"
+      ],
+      "cabinet": "231а, 232",
+      "source": [
+        "S17, стр.7, тех.56; стр.6, тех.5; стр.7, тех.57; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 48.0,
+      "area_seats": 19,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 2,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-513",
+        "OFF-716",
+        "WALL-MERGE"
+      ],
+      "group_ids": [
+        27,
+        28
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 2
+    },
+    {
+      "id": "PR-K01-F02-060-061-062",
+      "proposed_space_ids": [
+        "PR-K01-F02-060-061-062"
+      ],
+      "resources": [
+        "K01-F02-T060",
+        "K01-F02-T061",
+        "K01-F02-T062"
+      ],
+      "cabinet": "223а",
+      "source": [
+        "S17, стр.7, тех.60; стр.7, тех.61; стр.7, тех.62; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 45.4,
+      "area_seats": 18,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 2,
+      "partition_count": 0,
+      "conditions": [
+        "ARCH-223",
+        "CLASS-FIT",
+        "STOCK-ARCH",
+        "WALL-MERGE"
+      ],
+      "group_ids": [
+        9
+      ],
+      "hard_blocked": [
+        "ARCH-223: адрес вывоза архива в действующей цепочке V не определен, 223а сохраняется"
+      ],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 2
+    },
+    {
+      "id": "PR-K01-F03-004",
+      "proposed_space_ids": [
+        "PR-K01-F03-004"
+      ],
+      "resources": [
+        "K01-F03-T004"
+      ],
+      "cabinet": "314",
+      "source": [
+        "S17, стр.7, тех.4; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 30.8,
+      "area_seats": 12,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "SGB-28"
+      ],
+      "group_ids": [
+        10
+      ],
+      "hard_blocked": [
+        "SGB-28: нет полной адресной сверки всех 28 работников; существующее размещение защищено"
+      ],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 0
+    },
+    {
+      "id": "PR-K01-F03-024",
+      "proposed_space_ids": [
+        "PR-K01-F03-024"
+      ],
+      "resources": [
+        "K01-F03-T024"
+      ],
+      "cabinet": "306",
+      "source": [
+        "S17, стр.8, тех.24; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 1,
+      "area": 64.4,
+      "area_seats": 25,
+      "design_seats": 25,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-108",
+        "STOCK-108"
+      ],
+      "group_ids": [
+        11,
+        15
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 0
+    },
+    {
+      "id": "PR-K01-F03-025-026",
+      "proposed_space_ids": [
+        "PR-K01-F03-025-026"
+      ],
+      "resources": [
+        "K01-F03-T025",
+        "K01-F03-T026"
+      ],
+      "cabinet": "307",
+      "source": [
+        "S17, стр.8, тех.25; стр.8, тех.26; номера S11; пользователи S13; смежность S19"
+      ],
+      "rooms": 1,
+      "full": 1,
+      "area": 65.4,
+      "area_seats": 26,
+      "design_seats": 25,
+      "actual_seats": null,
+      "merge_boundaries": 1,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-108",
+        "OFF-305",
+        "STOCK-108",
+        "STOCK-ARCH",
+        "WALL-MERGE"
+      ],
+      "group_ids": [
+        12,
+        15,
+        22,
+        23
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 1
+    },
+    {
+      "id": "PR-K01-F02-033",
+      "proposed_space_ids": [
+        "PR-K01-F02-033"
+      ],
+      "resources": [
+        "K01-F02-T033"
+      ],
+      "cabinet": "206",
+      "source": [
+        "S17; S11; S13; S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 31.8,
+      "area_seats": 12,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-420",
+        "OFF-421",
+        "OFF-422"
+      ],
+      "group_ids": [
+        4,
+        29
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 0
+    },
+    {
+      "id": "PR-K01-F02-034-035",
+      "proposed_space_ids": [
+        "PR-K01-F02-034-035"
+      ],
+      "resources": [
+        "K01-F02-T034",
+        "K01-F02-T035"
+      ],
+      "cabinet": "207, 208",
+      "source": [
+        "S17; S11; S13; S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 48.9,
+      "area_seats": 19,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 1,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-420",
+        "OFF-421",
+        "OFF-422",
+        "SGB-28",
+        "WALL-MERGE"
+      ],
+      "group_ids": [
+        4,
+        5,
+        29
+      ],
+      "hard_blocked": [
+        "SGB-28: нет полной адресной сверки всех 28 работников; существующее размещение защищено"
+      ],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 1
+    },
+    {
+      "id": "PR-K01-F02-044-045",
+      "proposed_space_ids": [
+        "PR-K01-F02-044-045"
+      ],
+      "resources": [
+        "K01-F02-T044",
+        "K01-F02-T045"
+      ],
+      "cabinet": "215, 216",
+      "source": [
+        "S17; S11; S13; S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 30.8,
+      "area_seats": 12,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 1,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-505",
+        "WALL-MERGE"
+      ],
+      "group_ids": [
+        26
+      ],
+      "hard_blocked": [
+        "V Мебель!A23:T23: выбранный профиль дает 10 мест при задании 12; требуется иная подтвержденная расстановка"
+      ],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 1
+    },
+    {
+      "id": "PR-K01-F02-046-047",
+      "proposed_space_ids": [
+        "PR-K01-F02-046-047"
+      ],
+      "resources": [
+        "K01-F02-T046",
+        "K01-F02-T047"
+      ],
+      "cabinet": "217, 218",
+      "source": [
+        "S17; S11; S13; S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 47.9,
+      "area_seats": 19,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 1,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-505",
+        "WALL-MERGE"
+      ],
+      "group_ids": [
+        8,
+        26
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 1
+    },
+    {
+      "id": "PR-K01-F02-033-034",
+      "proposed_space_ids": [
+        "PR-K01-F02-033-034"
+      ],
+      "resources": [
+        "K01-F02-T033",
+        "K01-F02-T034"
+      ],
+      "cabinet": "206, 207",
+      "source": [
+        "S17; S11; S13; S19"
+      ],
+      "rooms": 1,
+      "full": 1,
+      "area": 64.2,
+      "area_seats": 25,
+      "design_seats": 25,
+      "actual_seats": null,
+      "merge_boundaries": 1,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-420",
+        "OFF-421",
+        "OFF-422",
+        "WALL-MERGE"
+      ],
+      "group_ids": [
+        4,
+        29
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 1
+    },
+    {
+      "id": "PR-K01-F02-034",
+      "proposed_space_ids": [
+        "PR-K01-F02-034"
+      ],
+      "resources": [
+        "K01-F02-T034"
+      ],
+      "cabinet": "207",
+      "source": [
+        "S17; S11; S13; S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 32.4,
+      "area_seats": 12,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-420",
+        "OFF-421",
+        "OFF-422"
+      ],
+      "group_ids": [
+        4,
+        29
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 0
+    },
+    {
+      "id": "PR-K01-F02-047",
+      "proposed_space_ids": [
+        "PR-K01-F02-047"
+      ],
+      "resources": [
+        "K01-F02-T047"
+      ],
+      "cabinet": "218",
+      "source": [
+        "S17; S11; S13; S19"
+      ],
+      "rooms": 1,
+      "full": 0,
+      "area": 31.9,
+      "area_seats": 12,
+      "design_seats": 12,
+      "actual_seats": null,
+      "merge_boundaries": 0,
+      "partition_count": 0,
+      "conditions": [
+        "CLASS-FIT",
+        "OFF-505"
+      ],
+      "group_ids": [
+        8
+      ],
+      "hard_blocked": [],
+      "technical_approval": false,
+      "geometry_confirmed": false,
+      "construction_index": 0
+    }
+  ],
+  "control_p13_space_ids": [
+    "PR-K01-F01-014",
+    "PR-K01-F01-015-S1",
+    "PR-K01-F01-015-S2",
+    "PR-K01-F01-038",
+    "PR-K01-F01-041",
+    "PR-K01-F01-056",
+    "PR-K01-F02-036",
+    "PR-K01-F02-042-043",
+    "PR-K01-F02-044-045-046-047",
+    "PR-K01-F02-056-005-057",
+    "PR-K01-F03-024",
+    "PR-K01-F03-025-026",
+    "PR-K01-F02-033-034"
+  ],
+  "conditions": [
+    {
+      "code": "SGB-28",
+      "address": "СГБ, ФЭУ; 208, 314, 309а; адреса 113 и 125/3",
+      "known": "СГБ: 28 человек по записке от 05.10.2026 № 05-19/192. В IV этапе только 9 мест СГБ и 6 мест ФЭУ.",
+      "required": "Сохранить нынешнее размещение всех 28; установить поименную рассадку и состав СГБ/ФЭУ. Остаток 13 либо 19 человек не распределен по кабинетам.",
+      "verification": "Документы и учет",
+      "alternative": "Р13 и Б11 не требуют освобождения 208, 314, 309а.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-420",
+      "address": "№ 5, 420",
+      "known": "Кабинет занят кафедрой ГО; модель: 1 нынешний работник.",
+      "required": "Подтвердить контур и площадь. Для 3 прибывающих: 22 м²; при сохранении ГО вместе с ними: 28 м², расширенно 36 м².",
+      "verification": "Адресная сверка и мебель",
+      "alternative": "Б11: 3 работника финансовой кафедры в 109; библиотечные работники в 105.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-421",
+      "address": "№ 5, 421",
+      "known": "Закреплен за НИГ. В IV этапе предложен прием работника ГО; в S10 - ОДО.",
+      "required": "НИГ сохраняется. Прием ГО и ОДО рассматривать раздельно. Базово 3 места с одним руководителем: 34 м²; расширенно 38 м².",
+      "verification": "Адресная сверка и мебель",
+      "alternative": "ГО остается в 420 совместно с финансовыми работниками при проверке 28/36 м². Исключительное размещение ОДО требует нового адреса НИГ.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-422",
+      "address": "№ 5, 422",
+      "known": "Нынешняя кафедра арбитражного процесса сохраняется.",
+      "required": "Подтвердить площадь и расстановку для 3 работников: 34 м² с одним руководителем; 48 м² с двумя руководителями.",
+      "verification": "Адресная сверка и мебель",
+      "alternative": "Б11: руководитель финансовой кафедры в 110.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-505",
+      "address": "№ 5, 505",
+      "known": "УМУ занимает кабинет; модель: 2 нынешних и 6 прибывающих работников.",
+      "required": "Для 8 мест требуется 68 м² базово, 92 м² расширенно. В паспорте нет доказанного соответствия кабинету 505.",
+      "verification": "Адресная сверка и мебель",
+      "alternative": "Б11: 215, 216 и 217 по 2 работника; только 218 становится аудиторией.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-513",
+      "address": "№ 5, 513 и 514",
+      "known": "Проектный офис сохраняется. В 513 добавляется 1 работник молодежной науки.",
+      "required": "Проверить раздельно 513: 28/30 м² и 514: 8/20 м². Связь кабинетов, штат и доступ к общим зонам не подтверждены.",
+      "verification": "Адресная сверка и мебель",
+      "alternative": "Сохранить 231а и обе комнаты 232; исключить новую аудиторию этого блока.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-716",
+      "address": "№ 5, 716 и 716а",
+      "known": "Отдел управления недвижимостью сохраняется; по 1 прибывающему в каждый кабинет.",
+      "required": "В каждом по 2 расчетных работника: 16 м² базово, 30 м² при отдельной руководительской зоне. Проверить прием и хранение документов.",
+      "verification": "Адресная сверка и мебель",
+      "alternative": "Б11: договорная служба остается в 232.",
+      "confirmed": false
+    },
+    {
+      "code": "STOCK-BOOK",
+      "address": "№ 1, 106 и 008/009",
+      "known": "Эквивалентная площадь 401,8 м² размещается в 257 м² при коэффициенте 0,60.",
+      "required": "Нужны объем фондов, погонные метры полок, проходы, нагрузки и инженерные условия. Без уплотнения нынешнего фонда расчет не проходит.",
+      "verification": "Хранение и техническое обследование",
+      "alternative": "Сохранить 106: Р13 дает 11 аудиторий, из них 5 групповых, 212 площадных мест.",
+      "confirmed": false
+    },
+    {
+      "code": "STOCK-ARCH",
+      "address": "№ 1, 112, 309 и 001/002",
+      "known": "Р13 переносит 43 м² архивных функций; 223а и 309а сохраняются.",
+      "required": "Проверить фактический фонд и защищенное раздельное хранение. Площадной эквивалент не заменяет объемную проверку.",
+      "verification": "Хранение и техническое обследование",
+      "alternative": "Сохранить 121 и 307: 11 аудиторий, 6 групповых, 230 площадных мест.",
+      "confirmed": false
+    },
+    {
+      "code": "STOCK-108",
+      "address": "№ 1, 108 и 107",
+      "known": "S13 называет 108 складом; S11/S19 - читальной функцией.",
+      "required": "Установить фактическое использование. При чтении сохранить места и доступность 107/108. При хранении совместно с фондом 106 коэффициент 0,60 дает дефицит 14,02 м².",
+      "verification": "Сверка функции, хранение и мебель",
+      "alternative": "Без освобождения 108 исключить 123, 306 и 307: 10 аудиторий, 5 групповых, 205 площадных мест.",
+      "confirmed": false
+    },
+    {
+      "code": "ARCH-223",
+      "address": "№ 1, 223а",
+      "known": "В Р15 архивный запас составлял только 1,855 м² эквивалента.",
+      "required": "Освобождение возможно после полной объемной проверки архива.",
+      "verification": "Хранение и техническое обследование",
+      "alternative": "Р13 сохраняет 223а.",
+      "confirmed": false
+    },
+    {
+      "code": "LIB-WORK",
+      "address": "№ 1, 105, 109 и 110",
+      "known": "В Р13 по одному из 105 прибывает в 109 и 110, итог - по 2 места.",
+      "required": "Проверить реальный штат, мебель и обслуживание читателей. В Б11 из 109 и 110 по одному в 105; в 105 всего 4 расчетных места.",
+      "verification": "Учет и мебель",
+      "alternative": "Б11 сохраняет 105 библиотеке.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-IYU",
+      "address": "№ 1, 121, 122 и 112",
+      "known": "3 места из 121 в 112; 2 нынешних в 122 остаются.",
+      "required": "112: 3 рабочих места после вывоза архива. В 122 сохраняется руководительская и приемная функция.",
+      "verification": "Учет, мебель и архив",
+      "alternative": "Оставить 121 при невозможности освободить 112.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-123A",
+      "address": "№ 1, 123а",
+      "known": "Техническая позиция 40: 15,8 м²; адресное закрепление не установлено однозначно.",
+      "required": "Проверить пользователя, нынешнего работника и размещение 3 расчетных кафедральных мест.",
+      "verification": "Документы и мебель",
+      "alternative": "Не освобождать 123.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-108",
+      "address": "№ 1, 108",
+      "known": "49,9 м²; программа: 2 руководительские зоны по 18 м², 2 рабочих по 4 м², остаток 5,9 м².",
+      "required": "Проверить входы, окна, акустику, прием, документы и перегородки. В пределе 6 м² на рабочего остается 1,9 м²; при 8 м² возникает дефицит 2,1 м².",
+      "verification": "Мебель и проектная проверка",
+      "alternative": "Исключить 123, 306 и зависимый 307.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-302",
+      "address": "№ 1, 302 и 241а",
+      "known": "Из 302 и 222 по одному работнику в 241а: всего 4 места.",
+      "required": "241а: 24 м² при 6 м² на работника из 31 м². 302: руководительская зона 18 м² из 19 м².",
+      "verification": "Учет и мебель",
+      "alternative": "Не освобождать большой 126 при отказе цепочки.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-126",
+      "address": "№ 1, малая комната 126",
+      "known": "15,2 м²; после переезда 3 кафедральных места при 4 м² на место.",
+      "required": "Проверить мебель, документы, прием и пиковое присутствие ППС. При 6 м² на место дефицит 2,8 м².",
+      "verification": "Учет и мебель",
+      "alternative": "Сохранить большой 126.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-209",
+      "address": "№ 1, малая комната 209",
+      "known": "10,9 м²; 2 кафедральных места при 4 м² на место.",
+      "required": "Коридор тех. 37 не добавлять к площади. При 6 м² на место дефицит 1,1 м².",
+      "verification": "Мебель",
+      "alternative": "Сохранить большой 209.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-228",
+      "address": "№ 1, 228 и 227",
+      "known": "Работник ИПД из 228 в 227. В 227: 1 руководитель и 2 рабочих, 30 м² из 31,4 м².",
+      "required": "Проверить реальное число работников, мебель и прием; при 8 м² на рабочего дефицит 2,6 м².",
+      "verification": "Учет и мебель",
+      "alternative": "Сохранить большой 209.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-239",
+      "address": "№ 1, 239, 224 и 225",
+      "known": "По одному работнику из 239 в 224 и 225. В большой комнате 239 - 3 кафедральных места.",
+      "required": "224 и 225: по 2 рабочих; сохранить защищенное хранение. Малая комната 239 остается под документы.",
+      "verification": "Учет и мебель",
+      "alternative": "Сохранить 213 и 214.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-YOUTH",
+      "address": "№ 1, 241, 222 и 241а",
+      "known": "Работник 222 в 241а; проректор 241 в большой 222; руководитель кафедры в 241.",
+      "required": "Проверить приемную функцию малой комнаты 222. Работник 304 остается на месте.",
+      "verification": "Учет и мебель",
+      "alternative": "Сохранить 213 и 214.",
+      "confirmed": false
+    },
+    {
+      "code": "OFF-305",
+      "address": "№ 1, 305, 309 и 307",
+      "known": "Земельная кафедра из 305/306 в 108; трудовая кафедра из 307 в 305/309.",
+      "required": "Переезд зависит одновременно от освобождения 108 и вывоза архива 309. 309а остается СГБ.",
+      "verification": "Мебель, архив и учет",
+      "alternative": "Сохранить 307 при отказе любой из двух ветвей.",
+      "confirmed": false
+    },
+    {
+      "code": "CLASS-FIT",
+      "address": "Все новые учебные помещения",
+      "known": "Разделены площадной потенциал, задание 25/12 мест и предварительная мебельная проверка.",
+      "required": "Обмерные контуры, дверные створки, окна, колонны, проходы, место преподавателя, доступность, вентиляция, освещение и эвакуация.",
+      "verification": "Техническое обследование и проектный расчет",
+      "alternative": "Фактическую вместимость до проверки не утверждать.",
+      "confirmed": false
+    },
+    {
+      "code": "WALL-106",
+      "address": "№ 1, 106",
+      "known": "Предложены 2 зоны по 70 м² и 4,8 м² резерва от 144,8 м².",
+      "required": "Проверить независимые входы, расположение перегородки относительно окон и колонн, проходы, вентиляцию и акустику.",
+      "verification": "Техническое обследование и проектный расчет",
+      "alternative": "Одна аудитория в 106 вместо двух; вместимость пересчитать по расстановке.",
+      "confirmed": false
+    },
+    {
+      "code": "WALL-MERGE",
+      "address": "206+207, 213+214, 215-218, 231а+232, 307",
+      "known": "Границы объединения взяты из сохраненной концепции, без вывода об их конструктивной природе.",
+      "required": "Проверить каждую перегородку и скрытые сети. Защищенные конструкции не затрагивать.",
+      "verification": "Техническое обследование и проектный расчет",
+      "alternative": "Сохранить малые помещения либо исключить соответствующее объединение.",
+      "confirmed": false
+    }
+  ],
+  "chains": [
+    {
+      "group": 1,
+      "unit": "ИЮ",
+      "origin": "121",
+      "source_ids": [
+        "K01-F01-T038"
+      ],
+      "iv_count": 3,
+      "p_count": 3,
+      "terminal": "№ 1, этаж 1, каб. 112, тех. 23",
+      "prerequisites": [
+        14
+      ],
+      "conditions": [
+        "OFF-IYU",
+        "STOCK-ARCH"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 15
+    },
+    {
+      "group": 2,
+      "unit": "Административная кафедра",
+      "origin": "123",
+      "source_ids": [
+        "K01-F01-T041"
+      ],
+      "iv_count": 3,
+      "p_count": 3,
+      "terminal": "№ 1, этаж 1, каб. 108, тех. 19; № 1, этаж 1, каб. 123а, тех. 40",
+      "prerequisites": [
+        15
+      ],
+      "conditions": [
+        "OFF-123A",
+        "OFF-108",
+        "STOCK-108"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 16
+    },
+    {
+      "group": 3,
+      "unit": "Конституционная кафедра",
+      "origin": "126",
+      "source_ids": [
+        "K01-F01-T056"
+      ],
+      "iv_count": 3,
+      "p_count": 3,
+      "terminal": "№ 1, этаж 3, каб. 302, тех. 16; № 1, этаж 1, каб. 126, тех. 57",
+      "prerequisites": [
+        20
+      ],
+      "conditions": [
+        "OFF-302",
+        "OFF-126"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 17
+    },
+    {
+      "group": 4,
+      "unit": "Финансовая кафедра",
+      "origin": "206, 207",
+      "source_ids": [
+        "K01-F02-T033",
+        "K01-F02-T034"
+      ],
+      "iv_count": 4,
+      "p_count": 4,
+      "terminal": "№ 5, каб. 420; № 5, каб. 422",
+      "prerequisites": [
+        29
+      ],
+      "conditions": [
+        "OFF-420",
+        "OFF-421",
+        "OFF-422"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 18
+    },
+    {
+      "group": 5,
+      "unit": "ФЭУ: сектор труда и зарплаты",
+      "origin": "208",
+      "source_ids": [
+        "K01-F02-T035"
+      ],
+      "iv_count": 1,
+      "p_count": 0,
+      "terminal": "208 остается ФЭУ",
+      "prerequisites": [],
+      "conditions": [],
+      "action": "208 остается ФЭУ",
+      "stock": false,
+      "stage_v_status": "Сохраняется",
+      "source": "IV Переезд; S13; S17",
+      "sequence": null
+    },
+    {
+      "group": 6,
+      "unit": "История права",
+      "origin": "209",
+      "source_ids": [
+        "K01-F02-T036"
+      ],
+      "iv_count": 2,
+      "p_count": 2,
+      "terminal": "№ 1, этаж 2, каб. 228, тех. 73; № 1, этаж 2, каб. 209, тех. 38",
+      "prerequisites": [
+        16
+      ],
+      "conditions": [
+        "OFF-209",
+        "OFF-228"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 19
+    },
+    {
+      "group": 7,
+      "unit": "Уголовный процесс",
+      "origin": "213, 214",
+      "source_ids": [
+        "K01-F02-T042",
+        "K01-F02-T043"
+      ],
+      "iv_count": 4,
+      "p_count": 4,
+      "terminal": "№ 1, этаж 2, каб. 241, тех. 24; № 1, этаж 2, каб. 239, тех. 17",
+      "prerequisites": [
+        17,
+        18
+      ],
+      "conditions": [
+        "OFF-239",
+        "OFF-YOUTH"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 23
+    },
+    {
+      "group": 8,
+      "unit": "УМУ",
+      "origin": "218",
+      "source_ids": [
+        "K01-F02-T047"
+      ],
+      "iv_count": 2,
+      "p_count": 2,
+      "terminal": "№ 5, каб. 505",
+      "prerequisites": [],
+      "conditions": [
+        "OFF-505"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 1
+    },
+    {
+      "group": 9,
+      "unit": "Аспирантура: архив",
+      "origin": "223а",
+      "source_ids": [
+        "K01-F02-T060",
+        "K01-F02-T061",
+        "K01-F02-T062"
+      ],
+      "iv_count": 0,
+      "p_count": 0,
+      "terminal": "223а остается архивом",
+      "prerequisites": [],
+      "conditions": [],
+      "action": "223а остается архивом",
+      "stock": true,
+      "stage_v_status": "Сохраняется",
+      "source": "IV Переезд; S13; S17",
+      "sequence": null
+    },
+    {
+      "group": 10,
+      "unit": "СГБ: расчетный отдел",
+      "origin": "314",
+      "source_ids": [
+        "K01-F03-T004"
+      ],
+      "iv_count": 3,
+      "p_count": 0,
+      "terminal": "314 остается СГБ",
+      "prerequisites": [],
+      "conditions": [],
+      "action": "314 остается СГБ",
+      "stock": false,
+      "stage_v_status": "Сохраняется",
+      "source": "IV Переезд; S13; S17",
+      "sequence": null
+    },
+    {
+      "group": 11,
+      "unit": "Земельная кафедра",
+      "origin": "306",
+      "source_ids": [
+        "K01-F03-T024"
+      ],
+      "iv_count": 2,
+      "p_count": 2,
+      "terminal": "№ 1, этаж 1, каб. 108, тех. 19",
+      "prerequisites": [
+        15
+      ],
+      "conditions": [
+        "OFF-108",
+        "STOCK-108"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 20
+    },
+    {
+      "group": 12,
+      "unit": "Трудовая кафедра",
+      "origin": "307",
+      "source_ids": [
+        "K01-F03-T025",
+        "K01-F03-T026"
+      ],
+      "iv_count": 2,
+      "p_count": 2,
+      "terminal": "№ 1, этаж 3, каб. 305, тех. 23; № 1, этаж 3, каб. 309, тех. 31",
+      "prerequisites": [
+        22,
+        23
+      ],
+      "conditions": [
+        "OFF-305",
+        "STOCK-ARCH",
+        "STOCK-108"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 24
+    },
+    {
+      "group": 13,
+      "unit": "Научная библиотека",
+      "origin": "105",
+      "source_ids": [
+        "K01-F01-T014"
+      ],
+      "iv_count": 2,
+      "p_count": 2,
+      "terminal": "№ 1, этаж 1, каб. 109, тех. 20; № 1, этаж 1, каб. 110, тех. 21",
+      "prerequisites": [],
+      "conditions": [
+        "LIB-WORK"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 2
+    },
+    {
+      "group": 14,
+      "unit": "Документационное обеспечение: архив",
+      "origin": "112",
+      "source_ids": [
+        "K01-F01-T023"
+      ],
+      "iv_count": 0,
+      "p_count": 0,
+      "terminal": "№1: 001/002",
+      "prerequisites": [],
+      "conditions": [
+        "STOCK-ARCH"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": true,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 3
+    },
+    {
+      "group": 15,
+      "unit": "Читальная функция библиотеки",
+      "origin": "108",
+      "source_ids": [
+        "K01-F01-T019"
+      ],
+      "iv_count": 0,
+      "p_count": 0,
+      "terminal": "№1: 107",
+      "prerequisites": [],
+      "conditions": [
+        "STOCK-108"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": true,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 4
+    },
+    {
+      "group": 16,
+      "unit": "ИПД",
+      "origin": "228",
+      "source_ids": [
+        "K01-F02-T073"
+      ],
+      "iv_count": 1,
+      "p_count": 1,
+      "terminal": "№ 1, этаж 2, каб. 227, тех. 71",
+      "prerequisites": [],
+      "conditions": [
+        "OFF-228"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 5
+    },
+    {
+      "group": 17,
+      "unit": "Документационное обеспечение",
+      "origin": "239",
+      "source_ids": [
+        "K01-F02-T017",
+        "K01-F02-T018"
+      ],
+      "iv_count": 2,
+      "p_count": 2,
+      "terminal": "№ 1, этаж 2, каб. 224, тех. 67; № 1, этаж 2, каб. 225, тех. 68",
+      "prerequisites": [],
+      "conditions": [
+        "OFF-239"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 6
+    },
+    {
+      "group": 18,
+      "unit": "Проректор по молодежной политике",
+      "origin": "241",
+      "source_ids": [
+        "K01-F02-T024"
+      ],
+      "iv_count": 1,
+      "p_count": 1,
+      "terminal": "№ 1, этаж 2, каб. 222, тех. 58",
+      "prerequisites": [
+        19
+      ],
+      "conditions": [
+        "OFF-YOUTH"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 21
+    },
+    {
+      "group": 19,
+      "unit": "Молодежная политика",
+      "origin": "222",
+      "source_ids": [
+        "K01-F02-T058"
+      ],
+      "iv_count": 1,
+      "p_count": 1,
+      "terminal": "№ 1, этаж 2, каб. 241а, тех. 22",
+      "prerequisites": [],
+      "conditions": [
+        "OFF-302"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 7
+    },
+    {
+      "group": 20,
+      "unit": "Молодежная политика",
+      "origin": "302",
+      "source_ids": [
+        "K01-F03-T016"
+      ],
+      "iv_count": 1,
+      "p_count": 1,
+      "terminal": "№ 1, этаж 2, каб. 241а, тех. 22",
+      "prerequisites": [],
+      "conditions": [
+        "OFF-302"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 8
+    },
+    {
+      "group": 21,
+      "unit": "Молодежная политика",
+      "origin": "304",
+      "source_ids": [
+        "K01-F03-T021"
+      ],
+      "iv_count": 1,
+      "p_count": 0,
+      "terminal": "304 сохраняется; переезд не нужен для учебного прироста",
+      "prerequisites": [],
+      "conditions": [],
+      "action": "304 сохраняется; переезд не нужен для учебного прироста",
+      "stock": false,
+      "stage_v_status": "Сохраняется",
+      "source": "IV Переезд; S13; S17",
+      "sequence": null
+    },
+    {
+      "group": 22,
+      "unit": "Земельная кафедра",
+      "origin": "305",
+      "source_ids": [
+        "K01-F03-T023"
+      ],
+      "iv_count": 1,
+      "p_count": 1,
+      "terminal": "№ 1, этаж 1, каб. 108, тех. 19",
+      "prerequisites": [
+        15
+      ],
+      "conditions": [
+        "OFF-108",
+        "STOCK-108"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 22
+    },
+    {
+      "group": 23,
+      "unit": "Отдел по работе со студентами: архив",
+      "origin": "309",
+      "source_ids": [
+        "K01-F03-T031"
+      ],
+      "iv_count": 0,
+      "p_count": 0,
+      "terminal": "№1: 001/002",
+      "prerequisites": [],
+      "conditions": [
+        "STOCK-ARCH"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": true,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 9
+    },
+    {
+      "group": 24,
+      "unit": "СГБ: архив",
+      "origin": "309а",
+      "source_ids": [
+        "K01-F03-T032"
+      ],
+      "iv_count": 0,
+      "p_count": 0,
+      "terminal": "309а остается архивом СГБ",
+      "prerequisites": [],
+      "conditions": [],
+      "action": "309а остается архивом СГБ",
+      "stock": true,
+      "stage_v_status": "Сохраняется",
+      "source": "IV Переезд; S13; S17",
+      "sequence": null
+    },
+    {
+      "group": 25,
+      "unit": "Научная библиотека: книжный фонд",
+      "origin": "106",
+      "source_ids": [
+        "K01-F01-T015"
+      ],
+      "iv_count": 0,
+      "p_count": 0,
+      "terminal": "№1: занятые 008/009",
+      "prerequisites": [],
+      "conditions": [
+        "STOCK-BOOK"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": true,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 10
+    },
+    {
+      "group": 26,
+      "unit": "Отделы УМУ",
+      "origin": "215/216/217",
+      "source_ids": [
+        "K01-F02-T044",
+        "K01-F02-T045",
+        "K01-F02-T046"
+      ],
+      "iv_count": 4,
+      "p_count": 4,
+      "terminal": "№ 5, каб. 505",
+      "prerequisites": [],
+      "conditions": [
+        "OFF-505"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 11
+    },
+    {
+      "group": 27,
+      "unit": "Договорная и претензионно-исковая работа",
+      "origin": "232 (обе комнаты)",
+      "source_ids": [
+        "K01-F02-T005",
+        "K01-F02-T057"
+      ],
+      "iv_count": 2,
+      "p_count": 2,
+      "terminal": "№ 5, каб. 716; № 5, каб. 716а",
+      "prerequisites": [],
+      "conditions": [
+        "OFF-716"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 12
+    },
+    {
+      "group": 28,
+      "unit": "Молодежная наука",
+      "origin": "231а",
+      "source_ids": [
+        "K01-F02-T056"
+      ],
+      "iv_count": 1,
+      "p_count": 1,
+      "terminal": "№ 5, каб. 513",
+      "prerequisites": [],
+      "conditions": [
+        "OFF-513"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 13
+    },
+    {
+      "group": 29,
+      "unit": "Кафедра гражданской обороны и специальной подготовки",
+      "origin": "420",
+      "source_ids": [],
+      "iv_count": 1,
+      "p_count": 1,
+      "terminal": "№ 5, каб. 421",
+      "prerequisites": [],
+      "conditions": [
+        "OFF-421"
+      ],
+      "action": "Выполнять только после выполнения условий",
+      "stock": false,
+      "stage_v_status": "Цепочка адресована; допуск не получен",
+      "source": "IV Переезд; S13; S17",
+      "sequence": 14
+    }
+  ],
+  "relocation_slots": [
+    {
+      "uid": "SLOT-R-001",
+      "iv_group": 1,
+      "person_ordinal": 1,
+      "unit": "ИЮ",
+      "origin_uid": "K01-F01-T038",
+      "origin_label": "№1, этаж 1, 121",
+      "iv_destination_uid": "K01-F01-T023",
+      "iv_destination": "№1, 112 / тех.23",
+      "p13_destination_uid": "K01-F01-T023",
+      "p13_destination": "№1, 112 / тех.23",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-002",
+      "iv_group": 1,
+      "person_ordinal": 2,
+      "unit": "ИЮ",
+      "origin_uid": "K01-F01-T038",
+      "origin_label": "№1, этаж 1, 121",
+      "iv_destination_uid": "K01-F01-T023",
+      "iv_destination": "№1, 112 / тех.23",
+      "p13_destination_uid": "K01-F01-T023",
+      "p13_destination": "№1, 112 / тех.23",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-003",
+      "iv_group": 1,
+      "person_ordinal": 3,
+      "unit": "ИЮ",
+      "origin_uid": "K01-F01-T038",
+      "origin_label": "№1, этаж 1, 121",
+      "iv_destination_uid": "K01-F01-T023",
+      "iv_destination": "№1, 112 / тех.23",
+      "p13_destination_uid": "K01-F01-T023",
+      "p13_destination": "№1, 112 / тех.23",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-004",
+      "iv_group": 2,
+      "person_ordinal": 1,
+      "unit": "Административная кафедра",
+      "origin_uid": "K01-F01-T041",
+      "origin_label": "№1, этаж 1, 123",
+      "iv_destination_uid": "K01-F01-T019",
+      "iv_destination": "№1, 108 / тех.19",
+      "p13_destination_uid": "K01-F01-T019",
+      "p13_destination": "№1, 108 / тех.19",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-005",
+      "iv_group": 2,
+      "person_ordinal": 2,
+      "unit": "Административная кафедра",
+      "origin_uid": "K01-F01-T041",
+      "origin_label": "№1, этаж 1, 123",
+      "iv_destination_uid": "K01-F01-T040",
+      "iv_destination": "№1, 123а / тех.40",
+      "p13_destination_uid": "K01-F01-T040",
+      "p13_destination": "№1, 123а / тех.40",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-006",
+      "iv_group": 2,
+      "person_ordinal": 3,
+      "unit": "Административная кафедра",
+      "origin_uid": "K01-F01-T041",
+      "origin_label": "№1, этаж 1, 123",
+      "iv_destination_uid": "K01-F01-T040",
+      "iv_destination": "№1, 123а / тех.40",
+      "p13_destination_uid": "K01-F01-T040",
+      "p13_destination": "№1, 123а / тех.40",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-007",
+      "iv_group": 3,
+      "person_ordinal": 1,
+      "unit": "Конституционная кафедра",
+      "origin_uid": "K01-F01-T056",
+      "origin_label": "№1, этаж 1, 126",
+      "iv_destination_uid": "K01-F03-T016",
+      "iv_destination": "№1, 302 / тех.16",
+      "p13_destination_uid": "K01-F03-T016",
+      "p13_destination": "№1, 302 / тех.16",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-008",
+      "iv_group": 3,
+      "person_ordinal": 2,
+      "unit": "Конституционная кафедра",
+      "origin_uid": "K01-F01-T056",
+      "origin_label": "№1, этаж 1, 126",
+      "iv_destination_uid": "K01-F01-T057",
+      "iv_destination": "№1, 126 / тех.57",
+      "p13_destination_uid": "K01-F01-T057",
+      "p13_destination": "№1, 126 / тех.57",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-009",
+      "iv_group": 3,
+      "person_ordinal": 3,
+      "unit": "Конституционная кафедра",
+      "origin_uid": "K01-F01-T056",
+      "origin_label": "№1, этаж 1, 126",
+      "iv_destination_uid": "K01-F01-T057",
+      "iv_destination": "№1, 126 / тех.57",
+      "p13_destination_uid": "K01-F01-T057",
+      "p13_destination": "№1, 126 / тех.57",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-010",
+      "iv_group": 4,
+      "person_ordinal": 1,
+      "unit": "Финансовая кафедра",
+      "origin_uid": "K01-F02-T033",
+      "origin_label": "№1, этаж 2, 206, 207",
+      "iv_destination_uid": "ADDR-K05-F04-420",
+      "iv_destination": "№5, 420",
+      "p13_destination_uid": "ADDR-K05-F04-420",
+      "p13_destination": "№5, 420",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-011",
+      "iv_group": 4,
+      "person_ordinal": 2,
+      "unit": "Финансовая кафедра",
+      "origin_uid": "K01-F02-T033",
+      "origin_label": "№1, этаж 2, 206, 207",
+      "iv_destination_uid": "ADDR-K05-F04-420",
+      "iv_destination": "№5, 420",
+      "p13_destination_uid": "ADDR-K05-F04-420",
+      "p13_destination": "№5, 420",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-012",
+      "iv_group": 4,
+      "person_ordinal": 3,
+      "unit": "Финансовая кафедра",
+      "origin_uid": "K01-F02-T033",
+      "origin_label": "№1, этаж 2, 206, 207",
+      "iv_destination_uid": "ADDR-K05-F04-420",
+      "iv_destination": "№5, 420",
+      "p13_destination_uid": "ADDR-K05-F04-420",
+      "p13_destination": "№5, 420",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-013",
+      "iv_group": 4,
+      "person_ordinal": 4,
+      "unit": "Финансовая кафедра",
+      "origin_uid": "K01-F02-T034",
+      "origin_label": "№1, этаж 2, 206, 207",
+      "iv_destination_uid": "ADDR-K05-F04-422",
+      "iv_destination": "№5, 422",
+      "p13_destination_uid": "ADDR-K05-F04-422",
+      "p13_destination": "№5, 422",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-014",
+      "iv_group": 5,
+      "person_ordinal": 1,
+      "unit": "ФЭУ: сектор труда и зарплаты",
+      "origin_uid": "K01-F02-T035",
+      "origin_label": "№1, этаж 2, 208",
+      "iv_destination_uid": "K01-F02-T030",
+      "iv_destination": "№1, 203 / тех.30",
+      "p13_destination_uid": "K01-F02-T035",
+      "p13_destination": "№1, этаж 2, 208",
+      "iv_move": 1,
+      "p13_move": 0,
+      "stage_v_action": "Сохраняется на исходном месте",
+      "reason": "Консолидация СГБ не подтверждена для 28 работников; 208 и314 сохраняются.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-015",
+      "iv_group": 6,
+      "person_ordinal": 1,
+      "unit": "История права",
+      "origin_uid": "K01-F02-T036",
+      "origin_label": "№1, этаж 2, 209",
+      "iv_destination_uid": "K01-F02-T073",
+      "iv_destination": "№1, 228 / тех.73",
+      "p13_destination_uid": "K01-F02-T073",
+      "p13_destination": "№1, 228 / тех.73",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-016",
+      "iv_group": 6,
+      "person_ordinal": 2,
+      "unit": "История права",
+      "origin_uid": "K01-F02-T036",
+      "origin_label": "№1, этаж 2, 209",
+      "iv_destination_uid": "K01-F02-T038",
+      "iv_destination": "№1, 209 / тех.38",
+      "p13_destination_uid": "K01-F02-T038",
+      "p13_destination": "№1, 209 / тех.38",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-017",
+      "iv_group": 7,
+      "person_ordinal": 1,
+      "unit": "Уголовный процесс",
+      "origin_uid": "K01-F02-T043",
+      "origin_label": "№1, этаж 2, 213, 214",
+      "iv_destination_uid": "K01-F02-T024",
+      "iv_destination": "№1, 241 / тех.24",
+      "p13_destination_uid": "K01-F02-T024",
+      "p13_destination": "№1, 241 / тех.24",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-018",
+      "iv_group": 7,
+      "person_ordinal": 2,
+      "unit": "Уголовный процесс",
+      "origin_uid": "K01-F02-T042",
+      "origin_label": "№1, этаж 2, 213, 214",
+      "iv_destination_uid": "K01-F02-T017",
+      "iv_destination": "№1, 239 / тех.17",
+      "p13_destination_uid": "K01-F02-T017",
+      "p13_destination": "№1, 239 / тех.17",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-019",
+      "iv_group": 7,
+      "person_ordinal": 3,
+      "unit": "Уголовный процесс",
+      "origin_uid": "K01-F02-T042",
+      "origin_label": "№1, этаж 2, 213, 214",
+      "iv_destination_uid": "K01-F02-T017",
+      "iv_destination": "№1, 239 / тех.17",
+      "p13_destination_uid": "K01-F02-T017",
+      "p13_destination": "№1, 239 / тех.17",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-020",
+      "iv_group": 7,
+      "person_ordinal": 4,
+      "unit": "Уголовный процесс",
+      "origin_uid": "K01-F02-T042",
+      "origin_label": "№1, этаж 2, 213, 214",
+      "iv_destination_uid": "K01-F02-T017",
+      "iv_destination": "№1, 239 / тех.17",
+      "p13_destination_uid": "K01-F02-T017",
+      "p13_destination": "№1, 239 / тех.17",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-021",
+      "iv_group": 8,
+      "person_ordinal": 1,
+      "unit": "УМУ",
+      "origin_uid": "K01-F02-T047",
+      "origin_label": "№1, этаж 2, 218",
+      "iv_destination_uid": "ADDR-K05-F05-505",
+      "iv_destination": "№5, 505",
+      "p13_destination_uid": "ADDR-K05-F05-505",
+      "p13_destination": "№5, 505",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-022",
+      "iv_group": 8,
+      "person_ordinal": 2,
+      "unit": "УМУ",
+      "origin_uid": "K01-F02-T047",
+      "origin_label": "№1, этаж 2, 218",
+      "iv_destination_uid": "ADDR-K05-F05-505",
+      "iv_destination": "№5, 505",
+      "p13_destination_uid": "ADDR-K05-F05-505",
+      "p13_destination": "№5, 505",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-023",
+      "iv_group": 10,
+      "person_ordinal": 1,
+      "unit": "СГБ: расчетный отдел",
+      "origin_uid": "K01-F03-T004",
+      "origin_label": "№1, этаж 3, 314",
+      "iv_destination_uid": "K01-F01-T028",
+      "iv_destination": "№1, 115 / тех.28",
+      "p13_destination_uid": "K01-F03-T004",
+      "p13_destination": "№1, этаж 3, 314",
+      "iv_move": 1,
+      "p13_move": 0,
+      "stage_v_action": "Сохраняется на исходном месте",
+      "reason": "Консолидация СГБ не подтверждена для 28 работников; 208 и314 сохраняются.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-024",
+      "iv_group": 10,
+      "person_ordinal": 2,
+      "unit": "СГБ: расчетный отдел",
+      "origin_uid": "K01-F03-T004",
+      "origin_label": "№1, этаж 3, 314",
+      "iv_destination_uid": "K01-F01-T029",
+      "iv_destination": "№1, 116 / тех.29",
+      "p13_destination_uid": "K01-F03-T004",
+      "p13_destination": "№1, этаж 3, 314",
+      "iv_move": 1,
+      "p13_move": 0,
+      "stage_v_action": "Сохраняется на исходном месте",
+      "reason": "Консолидация СГБ не подтверждена для 28 работников; 208 и314 сохраняются.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-025",
+      "iv_group": 10,
+      "person_ordinal": 3,
+      "unit": "СГБ: расчетный отдел",
+      "origin_uid": "K01-F03-T004",
+      "origin_label": "№1, этаж 3, 314",
+      "iv_destination_uid": "K01-F01-T030",
+      "iv_destination": "№1, 117 / тех.30",
+      "p13_destination_uid": "K01-F03-T004",
+      "p13_destination": "№1, этаж 3, 314",
+      "iv_move": 1,
+      "p13_move": 0,
+      "stage_v_action": "Сохраняется на исходном месте",
+      "reason": "Консолидация СГБ не подтверждена для 28 работников; 208 и314 сохраняются.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-026",
+      "iv_group": 11,
+      "person_ordinal": 1,
+      "unit": "Земельная кафедра",
+      "origin_uid": "K01-F03-T024",
+      "origin_label": "№1, этаж 3, 306",
+      "iv_destination_uid": "K01-F01-T019",
+      "iv_destination": "№1, 108 / тех.19",
+      "p13_destination_uid": "K01-F01-T019",
+      "p13_destination": "№1, 108 / тех.19",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-027",
+      "iv_group": 11,
+      "person_ordinal": 2,
+      "unit": "Земельная кафедра",
+      "origin_uid": "K01-F03-T024",
+      "origin_label": "№1, этаж 3, 306",
+      "iv_destination_uid": "K01-F01-T019",
+      "iv_destination": "№1, 108 / тех.19",
+      "p13_destination_uid": "K01-F01-T019",
+      "p13_destination": "№1, 108 / тех.19",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-028",
+      "iv_group": 12,
+      "person_ordinal": 1,
+      "unit": "Трудовая кафедра",
+      "origin_uid": "K01-F03-T025",
+      "origin_label": "№1, этаж 3, 307",
+      "iv_destination_uid": "K01-F03-T023",
+      "iv_destination": "№1, 305 / тех.23",
+      "p13_destination_uid": "K01-F03-T023",
+      "p13_destination": "№1, 305 / тех.23",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-029",
+      "iv_group": 12,
+      "person_ordinal": 2,
+      "unit": "Трудовая кафедра",
+      "origin_uid": "K01-F03-T026",
+      "origin_label": "№1, этаж 3, 307",
+      "iv_destination_uid": "K01-F03-T031",
+      "iv_destination": "№1, 309 / тех.31",
+      "p13_destination_uid": "K01-F03-T031",
+      "p13_destination": "№1, 309 / тех.31",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-030",
+      "iv_group": 13,
+      "person_ordinal": 1,
+      "unit": "Научная библиотека",
+      "origin_uid": "K01-F01-T014",
+      "origin_label": "№1, этаж 1, 105",
+      "iv_destination_uid": "K01-F01-T020",
+      "iv_destination": "№1, 109 / тех.20",
+      "p13_destination_uid": "K01-F01-T020",
+      "p13_destination": "№1, 109 / тех.20",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-031",
+      "iv_group": 13,
+      "person_ordinal": 2,
+      "unit": "Научная библиотека",
+      "origin_uid": "K01-F01-T014",
+      "origin_label": "№1, этаж 1, 105",
+      "iv_destination_uid": "K01-F01-T021",
+      "iv_destination": "№1, 110 / тех.21",
+      "p13_destination_uid": "K01-F01-T021",
+      "p13_destination": "№1, 110 / тех.21",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-032",
+      "iv_group": 16,
+      "person_ordinal": 1,
+      "unit": "ИПД",
+      "origin_uid": "K01-F02-T073",
+      "origin_label": "№1, этаж 2, 228",
+      "iv_destination_uid": "K01-F02-T071",
+      "iv_destination": "№1, 227 / тех.71",
+      "p13_destination_uid": "K01-F02-T071",
+      "p13_destination": "№1, 227 / тех.71",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-033",
+      "iv_group": 17,
+      "person_ordinal": 1,
+      "unit": "Документационное обеспечение",
+      "origin_uid": "K01-F02-T017",
+      "origin_label": "№1, этаж 2, 239",
+      "iv_destination_uid": "K01-F02-T067",
+      "iv_destination": "№1, 224 / тех.67",
+      "p13_destination_uid": "K01-F02-T067",
+      "p13_destination": "№1, 224 / тех.67",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-034",
+      "iv_group": 17,
+      "person_ordinal": 2,
+      "unit": "Документационное обеспечение",
+      "origin_uid": "K01-F02-T018",
+      "origin_label": "№1, этаж 2, 239",
+      "iv_destination_uid": "K01-F02-T068",
+      "iv_destination": "№1, 225 / тех.68",
+      "p13_destination_uid": "K01-F02-T068",
+      "p13_destination": "№1, 225 / тех.68",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-035",
+      "iv_group": 18,
+      "person_ordinal": 1,
+      "unit": "Проректор по молодежной политике",
+      "origin_uid": "K01-F02-T024",
+      "origin_label": "№1, этаж 2, 241",
+      "iv_destination_uid": "K01-F02-T058",
+      "iv_destination": "№1, 222 / тех.58",
+      "p13_destination_uid": "K01-F02-T058",
+      "p13_destination": "№1, 222 / тех.58",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-036",
+      "iv_group": 19,
+      "person_ordinal": 1,
+      "unit": "Молодежная политика",
+      "origin_uid": "K01-F02-T058",
+      "origin_label": "№1, этаж 2, 222",
+      "iv_destination_uid": "K01-F02-T022",
+      "iv_destination": "№1, 241а / тех.22",
+      "p13_destination_uid": "K01-F02-T022",
+      "p13_destination": "№1, 241а / тех.22",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-037",
+      "iv_group": 20,
+      "person_ordinal": 1,
+      "unit": "Молодежная политика",
+      "origin_uid": "K01-F03-T016",
+      "origin_label": "№1, этаж 3, 302",
+      "iv_destination_uid": "K01-F02-T022",
+      "iv_destination": "№1, 241а / тех.22",
+      "p13_destination_uid": "K01-F02-T022",
+      "p13_destination": "№1, 241а / тех.22",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-038",
+      "iv_group": 21,
+      "person_ordinal": 1,
+      "unit": "Молодежная политика",
+      "origin_uid": "K01-F03-T021",
+      "origin_label": "№1, этаж 3, 304",
+      "iv_destination_uid": "K01-F02-T026",
+      "iv_destination": "№1, 242 / тех.26",
+      "p13_destination_uid": "K01-F03-T021",
+      "p13_destination": "№1, этаж 3, 304",
+      "iv_move": 1,
+      "p13_move": 0,
+      "stage_v_action": "Сохраняется на исходном месте",
+      "reason": "Переезд304 не освобождал учебную площадь и не требовался цепочкой; отменен.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-039",
+      "iv_group": 22,
+      "person_ordinal": 1,
+      "unit": "Земельная кафедра",
+      "origin_uid": "K01-F03-T023",
+      "origin_label": "№1, этаж 3, 305",
+      "iv_destination_uid": "K01-F01-T019",
+      "iv_destination": "№1, 108 / тех.19",
+      "p13_destination_uid": "K01-F01-T019",
+      "p13_destination": "№1, 108 / тех.19",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-040",
+      "iv_group": 26,
+      "person_ordinal": 1,
+      "unit": "Отделы УМУ",
+      "origin_uid": "K01-F02-T044",
+      "origin_label": "№1, этаж 2, 215/216/217",
+      "iv_destination_uid": "ADDR-K05-F05-505",
+      "iv_destination": "№5, 505",
+      "p13_destination_uid": "ADDR-K05-F05-505",
+      "p13_destination": "№5, 505",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-041",
+      "iv_group": 26,
+      "person_ordinal": 2,
+      "unit": "Отделы УМУ",
+      "origin_uid": "K01-F02-T045",
+      "origin_label": "№1, этаж 2, 215/216/217",
+      "iv_destination_uid": "ADDR-K05-F05-505",
+      "iv_destination": "№5, 505",
+      "p13_destination_uid": "ADDR-K05-F05-505",
+      "p13_destination": "№5, 505",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-042",
+      "iv_group": 26,
+      "person_ordinal": 3,
+      "unit": "Отделы УМУ",
+      "origin_uid": "K01-F02-T046",
+      "origin_label": "№1, этаж 2, 215/216/217",
+      "iv_destination_uid": "ADDR-K05-F05-505",
+      "iv_destination": "№5, 505",
+      "p13_destination_uid": "ADDR-K05-F05-505",
+      "p13_destination": "№5, 505",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-043",
+      "iv_group": 26,
+      "person_ordinal": 4,
+      "unit": "Отделы УМУ",
+      "origin_uid": "K01-F02-T046",
+      "origin_label": "№1, этаж 2, 215/216/217",
+      "iv_destination_uid": "ADDR-K05-F05-505",
+      "iv_destination": "№5, 505",
+      "p13_destination_uid": "ADDR-K05-F05-505",
+      "p13_destination": "№5, 505",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-044",
+      "iv_group": 27,
+      "person_ordinal": 1,
+      "unit": "Договорная и претензионно-исковая работа",
+      "origin_uid": "K01-F02-T005",
+      "origin_label": "№1, этаж 2, 232 (обе комнаты)",
+      "iv_destination_uid": "ADDR-K05-F07-716",
+      "iv_destination": "№5, 716",
+      "p13_destination_uid": "ADDR-K05-F07-716",
+      "p13_destination": "№5, 716",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-045",
+      "iv_group": 27,
+      "person_ordinal": 2,
+      "unit": "Договорная и претензионно-исковая работа",
+      "origin_uid": "K01-F02-T057",
+      "origin_label": "№1, этаж 2, 232 (обе комнаты)",
+      "iv_destination_uid": "ADDR-K05-F07-716а",
+      "iv_destination": "№5, 716а",
+      "p13_destination_uid": "ADDR-K05-F07-716а",
+      "p13_destination": "№5, 716а",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-046",
+      "iv_group": 28,
+      "person_ordinal": 1,
+      "unit": "Молодежная наука",
+      "origin_uid": "K01-F02-T056",
+      "origin_label": "№1, этаж 2, 231а",
+      "iv_destination_uid": "ADDR-K05-F05-513",
+      "iv_destination": "№5, 513",
+      "p13_destination_uid": "ADDR-K05-F05-513",
+      "p13_destination": "№5, 513",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    },
+    {
+      "uid": "SLOT-R-047",
+      "iv_group": 29,
+      "person_ordinal": 1,
+      "unit": "Кафедра гражданской обороны и специальной подготовки",
+      "origin_uid": "ADDR-K05-F04-420",
+      "origin_label": "№5, этаж 4, 420",
+      "iv_destination_uid": "ADDR-K05-F04-421",
+      "iv_destination": "№5, 421",
+      "p13_destination_uid": "ADDR-K05-F04-421",
+      "p13_destination": "№5, 421",
+      "iv_move": 1,
+      "p13_move": 1,
+      "stage_v_action": "Переезд по адресу",
+      "reason": "Численность и мебель требуют адресной проверки; переход не состоялся.",
+      "identity_status": "Уникальный расчетный слот, не установленное физическое лицо",
+      "source": "IV Переезд; S13 для адресов"
+    }
+  ],
+  "office_hypotheses": [
+    {
+      "variant": "P13",
+      "uid": "ADDR-K05-F04-420",
+      "address": "№ 5, каб. 420",
+      "area": null,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 3,
+      "final": 3,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 4,
+      "required": 22,
+      "margin": null,
+      "status": "Площадь не установлена",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "ADDR-K05-F04-421",
+      "address": "№ 5, каб. 421",
+      "area": null,
+      "current": 2,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 3,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 4,
+      "required": 34,
+      "margin": null,
+      "status": "Площадь не установлена",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "ADDR-K05-F04-422",
+      "address": "№ 5, каб. 422",
+      "area": null,
+      "current": 2,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 3,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 4,
+      "required": 34,
+      "margin": null,
+      "status": "Площадь не установлена",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "ADDR-K05-F05-505",
+      "address": "№ 5, каб. 505",
+      "area": null,
+      "current": 2,
+      "outgoing": 0,
+      "incoming": 6,
+      "final": 8,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 8,
+      "required": 68,
+      "margin": null,
+      "status": "Площадь не установлена",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "ADDR-K05-F05-513",
+      "address": "№ 5, каб. 513",
+      "area": null,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 2,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 4,
+      "required": 28,
+      "margin": null,
+      "status": "Площадь не установлена",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "ADDR-K05-F05-514",
+      "address": "№ 5, каб. 514",
+      "area": null,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 2,
+      "required": 8,
+      "margin": null,
+      "status": "Площадь не установлена",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "ADDR-K05-F07-716",
+      "address": "№ 5, каб. 716",
+      "area": null,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 4,
+      "required": 16,
+      "margin": null,
+      "status": "Площадь не установлена",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "ADDR-K05-F07-716а",
+      "address": "№ 5, каб. 716а",
+      "area": null,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 4,
+      "required": 16,
+      "margin": null,
+      "status": "Площадь не установлена",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T012",
+      "address": "№ 1, этаж 1, каб. 103, тех. 12",
+      "area": 13.5,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 7.5,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T014",
+      "address": "№ 1, этаж 1, каб. 105, тех. 14",
+      "area": 34.2,
+      "current": 2,
+      "outgoing": 2,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 34.2,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T019",
+      "address": "№ 1, этаж 1, каб. 108, тех. 19",
+      "area": 49.9,
+      "current": 0,
+      "outgoing": 0,
+      "incoming": 4,
+      "final": 4,
+      "heads": 2,
+      "per_worker": 4,
+      "shared_zone": 0,
+      "required": 44,
+      "margin": 5.9,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T020",
+      "address": "№ 1, этаж 1, каб. 109, тех. 20",
+      "area": 16.0,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 4.0,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T021",
+      "address": "№ 1, этаж 1, каб. 110, тех. 21",
+      "area": 18.4,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 6.4,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T023",
+      "address": "№ 1, этаж 1, каб. 112, тех. 23",
+      "area": 22.3,
+      "current": 0,
+      "outgoing": 0,
+      "incoming": 3,
+      "final": 3,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 18,
+      "margin": 4.3,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T028",
+      "address": "№ 1, этаж 1, каб. 115, тех. 28",
+      "area": 21.3,
+      "current": 2,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 9.3,
+      "status": "СГБ сохраняется; расчет охватывает часть штата",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": true
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T029",
+      "address": "№ 1, этаж 1, каб. 116, тех. 29",
+      "area": 21.9,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 15.9,
+      "status": "СГБ сохраняется; расчет охватывает часть штата",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": true
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T030",
+      "address": "№ 1, этаж 1, каб. 117, тех. 30",
+      "area": 24.5,
+      "current": 2,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 12.5,
+      "status": "СГБ сохраняется; расчет охватывает часть штата",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": true
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T038",
+      "address": "№ 1, этаж 1, каб. 121, тех. 38",
+      "area": 31.1,
+      "current": 3,
+      "outgoing": 3,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 31.1,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T039",
+      "address": "№ 1, этаж 1, каб. 122, тех. 39",
+      "area": 31.3,
+      "current": 2,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 2,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 24,
+      "margin": 7.3,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T040",
+      "address": "№ 1, этаж 1, каб. 123а, тех. 40",
+      "area": 15.8,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 2,
+      "final": 3,
+      "heads": 0,
+      "per_worker": 4,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 3.8,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T041",
+      "address": "№ 1, этаж 1, каб. 123, тех. 41",
+      "area": 32.1,
+      "current": 3,
+      "outgoing": 3,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 32.1,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T056",
+      "address": "№ 1, этаж 1, каб. 126, тех. 56",
+      "area": 32.2,
+      "current": 3,
+      "outgoing": 3,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 32.2,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F01-T057",
+      "address": "№ 1, этаж 1, каб. 126, тех. 57",
+      "area": 15.2,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 2,
+      "final": 3,
+      "heads": 0,
+      "per_worker": 4,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 3.2,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T005",
+      "address": "№ 1, этаж 2, каб. 232, тех. 5",
+      "area": 15.6,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 15.6,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T008",
+      "address": "№ 1, этаж 2, каб. 234, тех. 8",
+      "area": 17.1,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 11.1,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T009",
+      "address": "№ 1, этаж 2, каб. 234, тех. 9",
+      "area": 10.5,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 4.5,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T012",
+      "address": "№ 1, этаж 2, каб. 236, тех. 12",
+      "area": 7.6,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 1.6,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T017",
+      "address": "№ 1, этаж 2, каб. 239, тех. 17",
+      "area": 19.4,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 3,
+      "final": 3,
+      "heads": 0,
+      "per_worker": 4,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 7.4,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T018",
+      "address": "№ 1, этаж 2, каб. 239, тех. 18",
+      "area": 10.3,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 4,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 10.3,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T022",
+      "address": "№ 1, этаж 2, каб. 241а, тех. 22",
+      "area": 31.0,
+      "current": 2,
+      "outgoing": 0,
+      "incoming": 2,
+      "final": 4,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 24,
+      "margin": 7.0,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T024",
+      "address": "№ 1, этаж 2, каб. 241, тех. 24",
+      "area": 21.4,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 1,
+      "final": 1,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 18,
+      "margin": 3.4,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T025",
+      "address": "№ 1, этаж 2, каб. 241б, тех. 25",
+      "area": 14.4,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 8.4,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T026",
+      "address": "№ 1, этаж 2, каб. 242, тех. 26",
+      "area": 15.6,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 9.6,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T030",
+      "address": "№ 1, этаж 2, каб. 203, тех. 30",
+      "area": 13.4,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 7.4,
+      "status": "СГБ сохраняется; расчет охватывает часть штата",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": true
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T031",
+      "address": "№ 1, этаж 2, каб. 204, тех. 31",
+      "area": 17.7,
+      "current": 2,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 5.7,
+      "status": "СГБ сохраняется; расчет охватывает часть штата",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": true
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T032",
+      "address": "№ 1, этаж 2, каб. 205, тех. 32",
+      "area": 15.7,
+      "current": 2,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 3.7,
+      "status": "СГБ сохраняется; расчет охватывает часть штата",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": true
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T033",
+      "address": "№ 1, этаж 2, каб. 206, тех. 33",
+      "area": 31.8,
+      "current": 3,
+      "outgoing": 3,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 31.8,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T034",
+      "address": "№ 1, этаж 2, каб. 207, тех. 34",
+      "area": 32.4,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 32.4,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T035",
+      "address": "№ 1, этаж 2, каб. 208, тех. 35",
+      "area": 16.5,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 10.5,
+      "status": "СГБ сохраняется; расчет охватывает часть штата",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": true
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T036",
+      "address": "№ 1, этаж 2, каб. 209, тех. 36",
+      "area": 32.3,
+      "current": 2,
+      "outgoing": 2,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 32.3,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T038",
+      "address": "№ 1, этаж 2, каб. 209, тех. 38",
+      "area": 10.9,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 4,
+      "shared_zone": 0,
+      "required": 8,
+      "margin": 2.9,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T042",
+      "address": "№ 1, этаж 2, каб. 213, тех. 42",
+      "area": 49.3,
+      "current": 3,
+      "outgoing": 3,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 49.3,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T043",
+      "address": "№ 1, этаж 2, каб. 214, тех. 43",
+      "area": 15.5,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 15.5,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T044",
+      "address": "№ 1, этаж 2, каб. 215, тех. 44",
+      "area": 15.5,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 15.5,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T045",
+      "address": "№ 1, этаж 2, каб. 216, тех. 45",
+      "area": 15.3,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 15.3,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T046",
+      "address": "№ 1, этаж 2, каб. 217, тех. 46",
+      "area": 16.0,
+      "current": 2,
+      "outgoing": 2,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 16.0,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T047",
+      "address": "№ 1, этаж 2, каб. 218, тех. 47",
+      "area": 31.9,
+      "current": 2,
+      "outgoing": 2,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 31.9,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T056",
+      "address": "№ 1, этаж 2, каб. 231а, тех. 56",
+      "area": 15.8,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 15.8,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T057",
+      "address": "№ 1, этаж 2, каб. 232, тех. 57",
+      "area": 16.6,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 16.6,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T058",
+      "address": "№ 1, этаж 2, каб. 222, тех. 58",
+      "area": 20.3,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 1,
+      "final": 1,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 18,
+      "margin": 2.3,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T059",
+      "address": "№ 1, этаж 2, каб. 222, тех. 59",
+      "area": 10.1,
+      "current": 0,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 10.1,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T067",
+      "address": "№ 1, этаж 2, каб. 224, тех. 67",
+      "area": 16.5,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 4.5,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T068",
+      "address": "№ 1, этаж 2, каб. 225, тех. 68",
+      "area": 16.0,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 2,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 12,
+      "margin": 4.0,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T069",
+      "address": "№ 1, этаж 2, каб. 226, тех. 69",
+      "area": 15.4,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 9.4,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T071",
+      "address": "№ 1, этаж 2, каб. 227, тех. 71",
+      "area": 31.4,
+      "current": 2,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 3,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 30,
+      "margin": 1.4,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F02-T073",
+      "address": "№ 1, этаж 2, каб. 228, тех. 73",
+      "area": 19.2,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 1,
+      "final": 1,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 18,
+      "margin": 1.2,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F03-T004",
+      "address": "№ 1, этаж 3, каб. 314, тех. 4",
+      "area": 30.8,
+      "current": 3,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 3,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 18,
+      "margin": 12.8,
+      "status": "СГБ сохраняется; расчет охватывает часть штата",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": true
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F03-T005",
+      "address": "№ 1, этаж 3, каб. 316, тех. 5",
+      "area": 12.6,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 6.6,
+      "status": "СГБ сохраняется; расчет охватывает часть штата",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": true
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F03-T016",
+      "address": "№ 1, этаж 3, каб. 302, тех. 16",
+      "area": 19.0,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 1,
+      "final": 1,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 18,
+      "margin": 1.0,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F03-T021",
+      "address": "№ 1, этаж 3, каб. 304, тех. 21",
+      "area": 7.3,
+      "current": 1,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 6,
+      "margin": 1.3,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F03-T023",
+      "address": "№ 1, этаж 3, каб. 305, тех. 23",
+      "area": 14.9,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 1,
+      "final": 1,
+      "heads": 0,
+      "per_worker": 4,
+      "shared_zone": 0,
+      "required": 4,
+      "margin": 10.9,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F03-T024",
+      "address": "№ 1, этаж 3, каб. 306, тех. 24",
+      "area": 64.4,
+      "current": 2,
+      "outgoing": 2,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 64.4,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F03-T025",
+      "address": "№ 1, этаж 3, каб. 307, тех. 25",
+      "area": 16.3,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 16.3,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F03-T026",
+      "address": "№ 1, этаж 3, каб. 307, тех. 26",
+      "area": 49.1,
+      "current": 1,
+      "outgoing": 1,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 49.1,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F03-T031",
+      "address": "№ 1, этаж 3, каб. 309, тех. 31",
+      "area": 20.7,
+      "current": 0,
+      "outgoing": 0,
+      "incoming": 1,
+      "final": 1,
+      "heads": 1,
+      "per_worker": 6,
+      "shared_zone": 0,
+      "required": 18,
+      "margin": 2.7,
+      "status": "Проверить мебель и фактический штат",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    },
+    {
+      "variant": "P13",
+      "uid": "K01-F03-T032",
+      "address": "№ 1, этаж 3, каб. 309а, тех. 32",
+      "area": 10.3,
+      "current": 0,
+      "outgoing": 0,
+      "incoming": 0,
+      "final": 0,
+      "heads": 0,
+      "per_worker": 4,
+      "shared_zone": 0,
+      "required": 0,
+      "margin": 10.3,
+      "status": "Нет постоянных мест в расчетной программе",
+      "actual_workers": null,
+      "source": "IV Размещение; S17; S13",
+      "retained_only": false
+    }
+  ],
+  "protected_sgb": {
+    "documented": 28,
+    "retained": 28,
+    "relocated": 0,
+    "individual_addresses_verified": false,
+    "protected_resource_ids": [
+      "K01-F01-T028",
+      "K01-F01-T029",
+      "K01-F01-T030",
+      "K01-F02-T030",
+      "K01-F02-T031",
+      "K01-F02-T032",
+      "K01-F02-T035",
+      "K01-F03-T004",
+      "K01-F03-T005"
+    ],
+    "unknown_individual_remainder": [
+      13,
+      19
+    ],
+    "note": "Гарантируется запрет преобразования затронутых адресов СГБ, а не подтверждение нынешней индивидуальной рассадки."
+  },
+  "route_421": {
+    "selected": "421-GO",
+    "allowed_in_solver": [
+      "421-GO"
+    ],
+    "mutually_exclusive": [
+      "421-GO",
+      "421-ODO",
+      "421-ONLY-ODO"
+    ],
+    "explanation": "Единственный адресный маршрут расчетного домена: сохранение НИГ и условный прием ГО. Одновременная активизация альтернатив запрещена; иные маршруты требуют отдельного пересчета цепочек."
+  },
+  "function108_assumption": {
+    "default": "unresolved_reading",
+    "confirmed": false,
+    "alternatives": [
+      "unresolved_reading",
+      "storage"
+    ],
+    "description": "Условная ветвь чтения: функция108 должна быть проверена, читальные места/доступность107 сохранены. При складской функции совместное освобождение108 и106 имеет известный дефицит14,02м² при коэффициенте0,60 и запрещено.",
+    "storage_joint_deficit_m2": 14.02,
+    "source": "conditions.STOCK-108; V исходный реестр"
+  },
+  "default_weights": {
+    "full": 35,
+    "seats": 25,
+    "area": 10,
+    "rooms": 5,
+    "moves": 10,
+    "construction": 10,
+    "unresolved": 5
+  },
+  "normalization": {
+    "full": 7,
+    "seats": 247,
+    "area": 687.4,
+    "rooms": 15,
+    "moves": 42,
+    "construction": 10,
+    "unresolved": 25
+  },
+  "constraints": [
+    {
+      "id": "RESOURCE-ONCE",
+      "kind": "hard",
+      "description": "Каждая исходная техническая позиция может входить максимум в один выбранный пакет"
+    },
+    {
+      "id": "SPLIT-106",
+      "kind": "hard",
+      "description": "106-1 и106-2 выбираются вместе; исходные144,8м² учитываются один раз; учебная площадь140м²"
+    },
+    {
+      "id": "SGB-PRESERVE",
+      "kind": "hard",
+      "description": "Не освобождать защищенные адреса СГБ/ФЭУ, не считать28 индивидуальных рассадок подтвержденными"
+    },
+    {
+      "id": "CHAIN-CLOSURE",
+      "kind": "hard",
+      "description": "Выбор помещения активирует все зависимости адресных цепочек, уникальные слоты считаются один раз"
+    },
+    {
+      "id": "CHAIN-DAG",
+      "kind": "hard",
+      "description": "Замкнутая цепочка запрещает решение"
+    },
+    {
+      "id": "RECEIVER-CONFLICT",
+      "kind": "hard",
+      "description": "Принимающий кабинет не может одновременно стать выбранной аудиторией"
+    },
+    {
+      "id": "NUMERICAL-CAPACITY",
+      "kind": "hard",
+      "description": "Известный дефицит принимающей площади запрещает решение даже в условном режиме; нормативность параметров не утверждается"
+    },
+    {
+      "id": "UNKNOWN-CAPACITY",
+      "kind": "strict_gate",
+      "description": "Неизвестные площадь/штат/расстановка запрещают строгий допуск. В условном режиме остаются неразрешенными условиями, не подтвержденной вместимостью"
+    },
+    {
+      "id": "421-XOR",
+      "kind": "hard",
+      "description": "Не более одного маршрута421; данная версия оптимизирует только421-GO"
+    },
+    {
+      "id": "FURNITURE-215216",
+      "kind": "hard",
+      "description": "Задание12мест в215+216 не проходит выбранный профиль; кандидат исключен до изменения/подтверждения профиля"
+    },
+    {
+      "id": "TECHNICAL-APPROVAL",
+      "kind": "strict_gate",
+      "description": "Обследование стен, безопасность и фактическая мебельная вместимость обязательны для строгого допуска"
+    }
+  ],
+  "metric_notes": {
+    "seats": "Задание на проектную расстановку, не фактические места",
+    "area": "Проектная полезная площадь выбранных кандидатов",
+    "construction": "Оценочный индекс: 1 за объединяемую внутреннюю границу +2 за новую перегородку; не смета",
+    "moves": "Уникальные расчетные слоты работников по активным цепочкам, не подтвержденный список физических лиц",
+    "net": "Чистый подтвержденный прирост мест неизвестен: не хватает фактической исходной/конечной вместимости. В цели используются только потенциальные новые места."
+  }
+}
